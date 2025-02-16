@@ -46,7 +46,7 @@ namespace Game.Scenes.Connect.Scripts
 
         public static void Show(ConnectControllerData data)
         {
-            SceneManager.LoadSceneAsync(SceneName);
+            SceneManager.LoadSceneAsync(SceneName, LoadSceneMode.Additive);
             _data = data;
         }
         
