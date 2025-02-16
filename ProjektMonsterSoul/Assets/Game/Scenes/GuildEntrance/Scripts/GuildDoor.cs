@@ -1,6 +1,7 @@
 using Game.Scenes.Connect.Scripts;
 using Game.Shared.Player.Scripts;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Game.Scenes.GuildEntrance.Scripts
 {
@@ -15,7 +16,13 @@ namespace Game.Scenes.GuildEntrance.Scripts
 
         public void OnInteract()
         {
-            ConnectController.Show(new ConnectControllerData());
+            ConnectController.Show(new ConnectControllerData()
+            {
+                OnLobby = () =>
+                {
+                    SceneManager.LoadScene("Forest1");
+                }
+            });
         }
 
         public void OnInteractionEnter()

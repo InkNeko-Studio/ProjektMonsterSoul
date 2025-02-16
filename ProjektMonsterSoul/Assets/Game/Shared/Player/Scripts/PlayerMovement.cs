@@ -1,9 +1,11 @@
 using System;
+using Framework.Connection;
 using Framework.SaveSystem;
 using Game.Shared.Player.Scripts;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Newtonsoft.Json;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -26,5 +28,12 @@ public class PlayerMovement : MonoBehaviour
     private void OnMovement(Vector2 movement)
     {
         _rigidbody.linearVelocity = movement * moveSpeed;
+        var data = new PlayerMovementData();
+        data.time = Time.time;
+        data.speedX = _rigidbody.linearVelocity.x;
+        data.speedY = _rigidbody.linearVelocity.y;
+        data.positionX = transform.position.x;
+        data.positionY = transform.position.y;
+        ConnectionManager.Send(JsonConvert.SerializeObject(data));
     }
 }

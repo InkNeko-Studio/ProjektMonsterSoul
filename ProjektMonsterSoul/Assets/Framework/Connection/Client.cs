@@ -4,6 +4,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using UnityEngine;
 
 namespace Framework.Connection
 {
@@ -31,13 +32,14 @@ namespace Framework.Connection
                 await _client.ConnectAsync(host, port);
                 _stream = _client.GetStream();
                 onSuccess?.Invoke();
-                await ReceiveMessages();
             }
             catch (Exception e)
             {
                 _isRunning = false;
                 onFailure?.Invoke();
+                return;
             }
+            await ReceiveMessages();
         }
 
         public bool IsConnected()
@@ -47,21 +49,29 @@ namespace Framework.Connection
 
         private async Task ReceiveMessages()
         {
-            using var ms = new MemoryStream();
-            byte[] buffer = new byte[256];
+            var sb = new StringBuilder();
+            byte[] buffer = new byte[ConnectionConfig.BytesRead];
 
             while (_client.Connected && !_cancellation.Token.IsCancellationRequested)
             {
                 int bytesRead = await _stream.ReadAsync(buffer, 0, buffer.Length);
                 if (bytesRead == 0) break;
 
-                ms.Write(buffer, 0, bytesRead);
-                if (!_stream.DataAvailable)
+                sb.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
+                
+                string data = sb.ToString();
+                int newlineIndex;
+                while ((newlineIndex = data.IndexOf('\n')) >= 0)
                 {
-                    string message = Encoding.UTF8.GetString(ms.ToArray());
-                    ms.SetLength(0); // Clear the MemoryStream
-                    OnMessageReceived?.Invoke(message);
+                    string message = data.Substring(0, newlineIndex).Trim();
+                    if (message.Length > 0)
+                    {
+                        OnMessageReceived?.Invoke(message);
+                    }
+                    data = data.Substring(newlineIndex + 1);
                 }
+                sb.Clear();
+                sb.Append(data);
             }
         }
 
@@ -69,6 +79,7 @@ namespace Framework.Connection
         {
             if (_client.Connected)
             {
+                message += "\n";
                 byte[] data = Encoding.UTF8.GetBytes(message);
                 _stream.Write(data, 0, data.Length);
             }

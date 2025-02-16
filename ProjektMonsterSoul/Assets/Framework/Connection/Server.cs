@@ -65,21 +65,29 @@ namespace Framework.Connection
         private async void HandleClient(TcpClient client)
         {
             NetworkStream stream = client.GetStream();
-            using var ms = new MemoryStream();
-            byte[] buffer = new byte[256];
+            var sb = new StringBuilder();
+            byte[] buffer = new byte[ConnectionConfig.BytesRead];
 
             while (client.Connected && !_cancellation.Token.IsCancellationRequested)
             {
                 int bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
                 if (bytesRead == 0) break;
+                
+                sb.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
 
-                ms.Write(buffer, 0, bytesRead);
-                if (!stream.DataAvailable)
+                string data = sb.ToString();
+                int newlineIndex;
+                while ((newlineIndex = data.IndexOf('\n')) >= 0)
                 {
-                    string message = Encoding.UTF8.GetString(ms.ToArray());
-                    ms.SetLength(0);
-                    OnMessageReceived?.Invoke(client, message);
+                    string message = data.Substring(0, newlineIndex).Trim();
+                    if (message.Length > 0)
+                    {
+                        OnMessageReceived?.Invoke(client, message);
+                    }
+                    data = data.Substring(newlineIndex + 1);
                 }
+                sb.Clear();
+                sb.Append(data);
             }
 
             _clients.Remove(client);
@@ -90,6 +98,7 @@ namespace Framework.Connection
         {
             if (client.Connected)
             {
+                message += "\n";
                 byte[] data = Encoding.UTF8.GetBytes(message);
                 client.GetStream().Write(data, 0, data.Length);
             }

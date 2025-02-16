@@ -1,10 +1,13 @@
 using System;
+using Game.Shared.Player.Scripts;
+using UnityEngine;
+using Newtonsoft.Json;
 
 namespace Framework.Connection
 {
     public static class ConnectionManager
     {
-        public static Action<string> OnMessage;
+        public static Action<NetworkTag, string> OnMessage;
         public static string Ip;
         
         private static Server _server;
@@ -23,7 +26,11 @@ namespace Framework.Connection
             _server.OnMessageReceived += (client, message) =>
             {
                 _server.SendAll(client, message);
-                OnMessage?.Invoke(message);
+                var messageBase = JsonConvert.DeserializeObject<MessageBaseData>(message, ConnectionConfig.JsonSettings);
+#if UNITY_EDITOR
+                Debug.Log($"Message Received\n{messageBase.networkTag}\n{message}");
+#endif
+                OnMessage?.Invoke(messageBase.networkTag, message);
             };
         }
         
@@ -35,12 +42,19 @@ namespace Framework.Connection
             _client.Connect(ip, ConnectionConfig.Port, onSuccess, onFailure);
             _client.OnMessageReceived += ( message) =>
             {
-                OnMessage?.Invoke(message);
+                var messageBase = JsonConvert.DeserializeObject<MessageBaseData>(message, ConnectionConfig.JsonSettings);
+#if UNITY_EDITOR
+                Debug.Log($"Message Received\n{messageBase.networkTag}\n{message}");
+#endif
+                OnMessage?.Invoke(messageBase.networkTag, message);
             };
         }
         
         public static void Send(string data)
         {
+#if UNITY_EDITOR
+            Debug.Log($"Message Sent\n{data}");
+#endif
             if (_client != null)
             {
                 _client.Send(data);

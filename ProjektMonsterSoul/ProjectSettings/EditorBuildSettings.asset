@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Connect/Connect.unity
     guid: 56d0024cc2a31d84ab571a347088c64e
+  - enabled: 1
+    path: Assets/Game/Scenes/Forest/Forest1.unity
+    guid: 9ded7f90f2319784b843f5f38f753ceb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
