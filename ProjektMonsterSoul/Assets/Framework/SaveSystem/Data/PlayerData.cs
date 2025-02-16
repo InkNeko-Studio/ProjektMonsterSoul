@@ -7,6 +7,6 @@ namespace Framework.SaveSystem.Data
     public class PlayerData
     {
         public string name;
-        public Color skinColor;
+        public ColorData skinColor = new ColorData();
     }
 }

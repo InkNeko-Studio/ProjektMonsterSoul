@@ -58,7 +58,10 @@ namespace Game.Scenes.MainMenu.Scripts
             {
                 SaveController.NewSave();
                 SaveController.CurrentSave.playerData.name = nameInput.text;
-                SaveController.CurrentSave.playerData.skinColor = characterImage.color;
+                SaveController.CurrentSave.playerData.skinColor.r = characterImage.color.r;
+                SaveController.CurrentSave.playerData.skinColor.g = characterImage.color.g;
+                SaveController.CurrentSave.playerData.skinColor.b = characterImage.color.b;
+                SaveController.CurrentSave.playerData.skinColor.a = characterImage.color.a;
                 SceneManager.LoadScene("GuildEntrance");
             });
         }

@@ -20,7 +20,7 @@ namespace Game.Scenes.GuildEntrance.Scripts
             {
                 OnLobby = () =>
                 {
-                    SceneManager.LoadScene("Forest1");
+                    SceneManager.LoadScene("GuildInside");
                 }
             });
         }

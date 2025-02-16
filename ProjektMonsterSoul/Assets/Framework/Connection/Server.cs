@@ -57,7 +57,7 @@ namespace Framework.Connection
             {
                 TcpClient client = await _listener.AcceptTcpClientAsync();
                 _clients.Add(client);
-                OnClientConnected.Invoke(client);
+                OnClientConnected?.Invoke(client);
                 HandleClient(client);
             }
         }

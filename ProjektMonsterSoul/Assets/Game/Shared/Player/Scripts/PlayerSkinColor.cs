@@ -1,15 +1,24 @@
+using System;
+using System.Collections;
+using Framework.Connection;
 using Framework.SaveSystem;
 using UnityEngine;
 
 namespace Game.Shared.Player.Scripts
 {
     public class PlayerSkinColor : MonoBehaviour
-    {[Header("References")]
-        [SerializeField]private SpriteRenderer playersprite;
+    {
+        private SpriteRenderer _playerSprite;
 
         private void Start()
         {
-            playersprite.color = SaveController.CurrentSave.playerData.skinColor;
+            _playerSprite = GetComponentInChildren<SpriteRenderer>();
+            Color skinColor = new Color(
+                SaveController.CurrentSave.playerData.skinColor.r,
+                SaveController.CurrentSave.playerData.skinColor.g, 
+                SaveController.CurrentSave.playerData.skinColor.b,
+                SaveController.CurrentSave.playerData.skinColor.a);
+            _playerSprite.color = skinColor;
         }
     }
 }
