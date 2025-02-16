@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Game.Shared.Player.Scripts
 {
     public class PlayerInteraction : MonoBehaviour
     {
+        [SerializeField] private GameObject interactionButton;
+        
         private PlayerController _playerController;
         
         private int _interactableId;
@@ -22,8 +25,11 @@ namespace Game.Shared.Player.Scripts
         {
             if (other.CompareTag("Interactable"))
             {
+                if (_interactable != null) _interactable.OnInteractionLeave();
                 _interactableId = other.GetInstanceID();
                 _interactable = other.GetComponent<IInteractable>();
+                _interactable.OnInteractionEnter();
+                interactionButton.SetActive(true);
             }
         }
 
@@ -31,7 +37,9 @@ namespace Game.Shared.Player.Scripts
         {
             if (other.GetInstanceID() == _interactableId)
             {
+                _interactable.OnInteractionLeave();
                 _interactable = null;
+                interactionButton.SetActive(false);
             }
         }
     }
