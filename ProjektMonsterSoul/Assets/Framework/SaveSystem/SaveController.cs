@@ -7,7 +7,7 @@ namespace Framework.SaveSystem
     public static class SaveController
     {
         private static readonly int SaveSlotLimit = 3;
-        public static SaveData CurrentSave;
+        public static SaveData CurrentSave = new();
         public static int StartPlayTime;
         public static SaveData[] SaveSlots;
 
