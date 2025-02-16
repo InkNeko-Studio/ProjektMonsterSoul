@@ -1,34 +1,12 @@
 using System;
+using Game.Scenes.Connect.Scripts;
+using Game.Shared.Player.Scripts;
 using UnityEngine;
 
-public class GuildDoor : MonoBehaviour
+public class GuildDoor : MonoBehaviour, IInteractable
 {
-    public GameObject keyboard;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void OnInteract()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            keyboard.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            keyboard.SetActive(false);
-        }
+        ConnectController.Show(new ConnectControllerData());
     }
 }
