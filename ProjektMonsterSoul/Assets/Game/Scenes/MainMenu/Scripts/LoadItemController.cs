@@ -1,6 +1,7 @@
 using Framework.SaveSystem;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Game.Scenes.MainMenu.Scripts
@@ -17,7 +18,11 @@ namespace Game.Scenes.MainMenu.Scripts
                 nameText.text = SaveController.SaveSlots[index].playerData.name;
 
                 loadButton.onClick.RemoveAllListeners();
-                loadButton.onClick.AddListener(() => { SaveController.SelectSave(index); });
+                loadButton.onClick.AddListener(() =>
+                {
+                    SaveController.SelectSave(index);
+                    SceneManager.LoadScene("GuildEntrance");
+                });
             }
             else
             {
