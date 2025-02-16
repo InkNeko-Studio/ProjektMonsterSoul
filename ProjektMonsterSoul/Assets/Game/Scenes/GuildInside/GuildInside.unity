@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 353886771}
   - component: {fileID: 353886770}
   m_Layer: 0
-  m_Name: GuildFloor
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2128,7 +2128,7 @@ GameObject:
   - component: {fileID: 1960491149}
   - component: {fileID: 1960491148}
   m_Layer: 0
-  m_Name: floor
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 namespace Framework.SaveSystem.Data
 {
@@ -6,5 +7,6 @@ namespace Framework.SaveSystem.Data
     public class PlayerData
     {
         public string name;
+        public Color skinColor;
     }
 }
