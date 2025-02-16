@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Framework.SaveSystem;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Game.Scenes.MainMenu.Scripts
@@ -56,6 +57,7 @@ namespace Game.Scenes.MainMenu.Scripts
             {
                 SaveController.NewSave();
                 SaveController.CurrentSave.playerData.name = nameInput.text;
+                SceneManager.LoadScene("GuildEntrance");
             });
         }
 
