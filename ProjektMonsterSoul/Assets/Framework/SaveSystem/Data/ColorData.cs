@@ -1,13 +1,27 @@
 using System;
+using Newtonsoft.Json;
+using UnityEngine;
 
 namespace Framework.SaveSystem.Data
 {
-    [Serializable]
-    public class ColorData
+    public class ColorData : JsonConverter
     {
-        public float r;
-        public float g;
-        public float b;
-        public float a;
+        public override bool CanConvert(Type objectType)
+        {
+            return true;
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            if (ColorUtility.TryParseHtmlString("#" + reader.Value, out Color loadedColor))
+                return loadedColor;
+            return null;
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            string val = ColorUtility.ToHtmlStringRGB((Color)value);
+            writer.WriteValue(val);
+        }
     }
 }

@@ -7,11 +7,13 @@ namespace Game.Shared.Player.Scripts
 {
     public class NetworkPlayerMovement : MonoBehaviour
     {
+        private NetworkPlayerController _networkPlayerController;
         private Rigidbody2D _rigidbody;
         private float _lastTime = 0f;
 
         private void Start()
         {
+            _networkPlayerController = GetComponent<NetworkPlayerController>();
             _rigidbody = GetComponent<Rigidbody2D>();
             ConnectionManager.OnMessage += OnMessage;
         }
@@ -21,6 +23,7 @@ namespace Game.Shared.Player.Scripts
             if (tag == NetworkTag.PlayerMovement)
             {
                 var movementData = JsonConvert.DeserializeObject<PlayerMovementData>(message, ConnectionConfig.JsonSettings);
+                if (movementData.playerName != _networkPlayerController.playerData.name) return;
                 if (movementData.time < _lastTime) return;
                 _lastTime = movementData.time;
                 _rigidbody.linearVelocity = new Vector2(movementData.speedX, movementData.speedY);

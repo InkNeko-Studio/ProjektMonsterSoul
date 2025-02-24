@@ -13,12 +13,7 @@ namespace Game.Shared.Player.Scripts
         private void Start()
         {
             _playerSprite = GetComponentInChildren<SpriteRenderer>();
-            Color skinColor = new Color(
-                SaveController.CurrentSave.playerData.skinColor.r,
-                SaveController.CurrentSave.playerData.skinColor.g, 
-                SaveController.CurrentSave.playerData.skinColor.b,
-                SaveController.CurrentSave.playerData.skinColor.a);
-            _playerSprite.color = skinColor;
+            _playerSprite.color = SaveController.CurrentSave.playerData.skinColor;
         }
     }
 }

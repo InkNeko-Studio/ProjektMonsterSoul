@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Framework.Connection
 {
-    public class Client
+    public class TcpClientHandler
     {
         private TcpClient _client;
         private NetworkStream _stream;
@@ -17,7 +17,7 @@ namespace Framework.Connection
 
         public event Action<string> OnMessageReceived;
 
-        ~Client()
+        ~TcpClientHandler()
         {
             Stop();
         }

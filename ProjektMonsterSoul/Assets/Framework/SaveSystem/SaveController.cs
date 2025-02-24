@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 using UnityEngine;
 
 namespace Framework.SaveSystem
@@ -31,7 +32,7 @@ namespace Framework.SaveSystem
             CurrentSave.saveTime += (int)Time.time - StartPlayTime;
             StartPlayTime = (int)Time.time;
             SaveSlots[index] = CurrentSave;
-            var serializedData = JsonUtility.ToJson(CurrentSave);
+            var serializedData = JsonConvert.SerializeObject(CurrentSave);
             SaveModel.SaveData(index, serializedData);
             CurrentSave = LoadSave(index);
         }
@@ -54,7 +55,7 @@ namespace Framework.SaveSystem
                 
             try
             {
-                var data = JsonUtility.FromJson<SaveData>(serializedData);
+                var data = JsonConvert.DeserializeObject<SaveData>(serializedData);
                 return data;
             }
             catch

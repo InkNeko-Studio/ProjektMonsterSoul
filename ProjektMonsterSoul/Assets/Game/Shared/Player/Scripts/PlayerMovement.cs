@@ -29,11 +29,12 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidbody.linearVelocity = movement * moveSpeed;
         var data = new PlayerMovementData();
+        data.playerName = SaveController.CurrentSave.playerData.name;
         data.time = Time.time;
         data.speedX = _rigidbody.linearVelocity.x;
         data.speedY = _rigidbody.linearVelocity.y;
         data.positionX = transform.position.x;
         data.positionY = transform.position.y;
-        ConnectionManager.Send(JsonConvert.SerializeObject(data));
+        ConnectionManager.Send(JsonConvert.SerializeObject(data), ConnectionProtocol.Udp);
     }
 }

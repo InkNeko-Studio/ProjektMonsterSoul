@@ -602,8 +602,7 @@ GameObject:
   - component: {fileID: 6268219078333616606}
   - component: {fileID: 6161679378800339131}
   - component: {fileID: 1232978488349056839}
-  - component: {fileID: 37703730684821315}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -650,7 +649,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -671,7 +670,7 @@ CapsuleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -765,18 +764,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54df8edfebc75674d8f922f24b89bef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &37703730684821315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6745728391582921624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de1df65a13f4636aaaae8acac5cf599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8393822182726971396

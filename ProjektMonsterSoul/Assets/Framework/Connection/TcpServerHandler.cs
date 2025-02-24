@@ -10,7 +10,7 @@ using UnityEngine;
 
 namespace Framework.Connection
 {
-    public class Server
+    public class TcpServerHandler
     {
         private TcpListener _listener;
         private readonly List<TcpClient> _clients = new List<TcpClient>();
@@ -20,7 +20,7 @@ namespace Framework.Connection
         public event Action<TcpClient> OnClientConnected;
         public event Action<TcpClient, string> OnMessageReceived;
 
-        ~Server()
+        ~TcpServerHandler()
         {
             Stop();
         }

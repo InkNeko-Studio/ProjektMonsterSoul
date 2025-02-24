@@ -1,5 +1,8 @@
 using System;
 using Framework.Connection;
+using Framework.SaveSystem;
+using Game.Shared.Player.Scripts;
+using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,6 +15,8 @@ namespace Game.Scenes.Connect.Scripts
     {
         public Action OnClose;
         public Action OnLobby;
+        public Action OnHost;
+        public Action OnConnect;
     }
     
     public class ConnectController : MonoBehaviour
@@ -61,6 +66,8 @@ namespace Game.Scenes.Connect.Scripts
             {
                 _data = new ConnectControllerData();
                 _data.OnLobby += () => { Debug.Log("OnLobby"); };
+                _data.OnHost += () => { Debug.Log("OnHost"); };
+                _data.OnConnect += () => { Debug.Log("OnConnect"); };
                 _data.OnClose += () => { Debug.Log("OnClose"); };
             }
             
@@ -83,6 +90,7 @@ namespace Game.Scenes.Connect.Scripts
                 loadingScreen.blocksRaycasts = true;
                 ConnectionManager.HostGame(() =>
                 {
+                    _data?.OnHost?.Invoke();
                     HideAllScreens();
                     hostScreen.alpha = 1f;
                     hostScreen.interactable = true;
@@ -114,6 +122,7 @@ namespace Game.Scenes.Connect.Scripts
                 
                 ConnectionManager.Connect(ipInput.text, () =>
                 {
+                    _data?.OnConnect?.Invoke();
                     HideAllScreens();
                     lobbyScreen.alpha = 1f;
                     lobbyScreen.interactable = true;

@@ -1,4 +1,5 @@
 using System;
+using Game.Shared.NetworkMessages;
 using UnityEngine;
 
 namespace Game.Shared.Player.Scripts
@@ -6,7 +7,7 @@ namespace Game.Shared.Player.Scripts
     [Serializable]
     public class PlayerMovementData : MessageBaseData
     {
-        public int playerId;
+        public string playerName;
 
         public float time;
         

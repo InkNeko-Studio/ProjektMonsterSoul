@@ -257,11 +257,12 @@ GameObject:
   - component: {fileID: 5796090120680001517}
   - component: {fileID: 1809596627792245491}
   - component: {fileID: 292584707339995347}
+  - component: {fileID: 5949203045015541113}
   - component: {fileID: 3591736399004547908}
   - component: {fileID: 8806094596528335997}
   - component: {fileID: 8228483833662157839}
   - component: {fileID: 4548321287276577710}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NetworkPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -307,7 +308,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -328,7 +329,7 @@ CapsuleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -349,6 +350,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.33333334, y: 0.6458333}
   m_Direction: 0
+--- !u!114 &5949203045015541113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745728391582921624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3382decf116b48aa937a011a34525e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData:
+    name: 
+    skinColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &3591736399004547908
 MonoBehaviour:
   m_ObjectHideFlags: 0

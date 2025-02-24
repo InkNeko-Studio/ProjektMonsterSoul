@@ -21,6 +21,12 @@ namespace Game.Scenes.GuildEntrance.Scripts
                 OnLobby = () =>
                 {
                     SceneManager.LoadScene("GuildInside");
+                },
+                OnHost = PlayerDataManager.Start,
+                OnConnect = () =>
+                {
+                    PlayerDataManager.Start();
+                    PlayerDataManager.SendData();
                 }
             });
         }
