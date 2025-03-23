@@ -20,7 +20,7 @@ namespace Game.Scenes.GuildEntrance.Scripts
             {
                 OnLobby = () =>
                 {
-                    SceneManager.LoadScene("GuildInside");
+                    SceneManager.LoadScene("Chest");
                 },
                 OnHost = PlayerDataManager.Start,
                 OnConnect = () =>

@@ -12,6 +12,7 @@ namespace Game.Shared.Player.Scripts
         public static List<PlayerData> PlayerDataList;
 
         public static Action<PlayerData> OnNewPlayer;
+        public static Action<PlayerData> OnUpdatePlayer;
         
         public static void Start()
         {
@@ -26,7 +27,10 @@ namespace Game.Shared.Player.Scripts
                 var playerStartInfo = JsonConvert.DeserializeObject<PlayerStartInfoData>(message, ConnectionConfig.JsonSettings);
                 int i;
                 if ((i = PlayerDataList.FindIndex((p) => p.name == playerStartInfo.playerData.name)) != -1)
+                {
                     PlayerDataList[i] = playerStartInfo.playerData;
+                    OnUpdatePlayer?.Invoke(playerStartInfo.playerData);
+                }
                 else
                 {
                     SendData();
