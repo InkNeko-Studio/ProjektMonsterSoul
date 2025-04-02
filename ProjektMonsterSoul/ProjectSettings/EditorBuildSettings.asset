@@ -20,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Bedroom/Scenes/BedroomBed.unity
     guid: 9bfc8e3ae97d50249ae6b0526896e438
+  - enabled: 1
+    path: Assets/MVP/Scenes/MVP_MainMenu/MVP_MainMenu.unity
+    guid: aa47f7add6dbdf14292fb8a1273e0ce1
+  - enabled: 1
+    path: Assets/MVP/Scenes/MVP_Lobby/MVP_Lobby.unity
+    guid: 2d0f66e5c14612947b49d4ae90edcc8f
+  - enabled: 1
+    path: Assets/MVP/Scenes/MVP_Gameplay/Scenarios/MVP_Gameplay1.unity
+    guid: 325b20f4361edfc4bb299799fe71ca5e
+  - enabled: 1
+    path: Assets/MVP/Scenes/MVP_Gameplay/Scenarios/MVP_Gameplay2.unity
+    guid: c0103bd9e12cae44899956fc8fcdbb32
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
