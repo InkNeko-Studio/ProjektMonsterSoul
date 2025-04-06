@@ -13,21 +13,21 @@ namespace Framework.AreaSystem
         public List<AreaBorder> areaBorders;
         public Transform player;
 
+        private static Area _currentArea;
+
         private void Awake()
         {
             Instance = this;
             foreach (AreaBorder areaBorder in areaBorders)
             {
-                if (SaveController.CurrentSave.playerData.area == areaBorder.area)
+                if (_currentArea == areaBorder.area)
                 {
                     areaBorder.SetPlayerPosition(player);
                     break;
                 }
             }
-            SaveController.CurrentSave.playerData.area = area;
-            SaveController.CurrentSave.playerData.positionX = player.position.x;
-            SaveController.CurrentSave.playerData.positionY = player.position.y;
-            PlayerDataManager.SendData();
+
+            _currentArea = area;
         }
     }
 }

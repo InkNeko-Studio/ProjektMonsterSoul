@@ -7,8 +7,7 @@ namespace Framework.AreaSystem
     {
         Chest,
         
-        BedroomBed,
-        BedroomFloor,
-        BedroomTable
+        Map1,
+        Map2
     }
 }

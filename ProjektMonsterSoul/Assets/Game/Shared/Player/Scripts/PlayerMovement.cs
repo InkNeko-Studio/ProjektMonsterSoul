@@ -1,5 +1,4 @@
 using System;
-using Framework.Connection;
 using Framework.SaveSystem;
 using Game.Shared.Player.Scripts;
 using TMPro;
@@ -27,14 +26,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnMovement(Vector2 movement)
     {
-        _rigidbody.linearVelocity = movement * moveSpeed;
-        var data = new PlayerMovementData();
-        data.playerName = SaveController.CurrentSave.playerData.name;
-        data.time = Time.time;
-        data.speedX = _rigidbody.linearVelocity.x;
-        data.speedY = _rigidbody.linearVelocity.y;
-        data.positionX = transform.position.x;
-        data.positionY = transform.position.y;
-        ConnectionManager.Send(JsonConvert.SerializeObject(data), ConnectionProtocol.Udp);
+        _movement = movement * moveSpeed;
+    }
+
+    private void FixedUpdate()
+    {
+        _rigidbody.linearVelocity = _movement;
     }
 }

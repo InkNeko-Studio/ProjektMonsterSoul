@@ -58,8 +58,7 @@ namespace Game.Scenes.MainMenu.Scripts
             {
                 SaveController.NewSave();
                 SaveController.CurrentSave.playerData.name = nameInput.text;
-                SaveController.CurrentSave.playerData.skinColor = characterImage.color;
-                SceneManager.LoadScene("GuildEntrance");
+                SceneManager.LoadScene("Chest");
             });
         }
 

@@ -9,16 +9,13 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/MainMenu/MainMenu.unity
     guid: c6df670436aca99438b4efda36bb14a4
   - enabled: 1
-    path: Assets/Game/Scenes/GuildEntrance/Scene/GuildEntrance.unity
-    guid: 3c81be6c8ecfcbc46ade11074d02a38d
-  - enabled: 1
-    path: Assets/Game/Scenes/Connect/Connect.unity
-    guid: 56d0024cc2a31d84ab571a347088c64e
-  - enabled: 1
-    path: Assets/Game/Scenes/GuildInside/Chest.unity
+    path: Assets/Game/Scenes/Chest/Chest.unity
     guid: bd34c77457bbd784596bd1275f6df2ee
   - enabled: 1
-    path: Assets/Game/Scenes/Bedroom/Scenes/BedroomBed.unity
+    path: Assets/Game/Scenes/Map/Scenes/Map1.unity
+    guid: 030f330017150ed488c3f3da6b567339
+  - enabled: 1
+    path: Assets/Game/Scenes/Map/Scenes/Map2.unity
     guid: 9bfc8e3ae97d50249ae6b0526896e438
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
