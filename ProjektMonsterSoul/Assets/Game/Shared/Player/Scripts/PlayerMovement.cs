@@ -1,36 +1,45 @@
-using System;
-using Framework.SaveSystem;
-using Game.Shared.Player.Scripts;
-using TMPro;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using Newtonsoft.Json;
 
-public class PlayerMovement : MonoBehaviour
+namespace Game.Shared.Player.Scripts
 {
-    [Header("Values")]
-    [SerializeField] private float moveSpeed;
-    
-    private Rigidbody2D _rigidbody;
-    private Vector2 _movement;
-    
-    private PlayerController _playerController;
-
-    private void Awake()
+    public enum Direction
     {
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _playerController = GetComponent<PlayerController>();
+        Up, Down, Left, Right
     }
-    private void OnEnable() { _playerController.OnMovement += OnMovement; }
-    private void OnDisable() { _playerController.OnMovement -= OnMovement; }
-
-    private void OnMovement(Vector2 movement)
+    
+    public class PlayerMovement : MonoBehaviour
     {
-        _movement = movement * moveSpeed;
-    }
+        [Header("Values")]
+        [SerializeField] private float moveSpeed;
 
-    private void FixedUpdate()
-    {
-        _rigidbody.linearVelocity = _movement;
+        [HideInInspector] public Direction direction;
+        
+        private Rigidbody2D _rigidbody;
+        private Vector2 _movement;
+    
+        private PlayerController _playerController;
+
+        private void Awake()
+        {
+            _rigidbody = GetComponent<Rigidbody2D>();
+            _playerController = GetComponent<PlayerController>();
+            direction = Direction.Down;
+        }
+        private void OnEnable() { _playerController.OnMovement += OnMovement; }
+        private void OnDisable() { _playerController.OnMovement -= OnMovement; }
+
+        private void OnMovement(Vector2 movement)
+        {
+            _movement = movement * moveSpeed;
+            if (_movement.x > 0.0f) direction = Direction.Right;
+            if (_movement.x < 0.0f) direction = Direction.Left;
+            if (_movement.y > 0.0f) direction = Direction.Up;
+            if (_movement.y < 0.0f) direction = Direction.Down;
+        }
+
+        private void FixedUpdate()
+        {
+            _rigidbody.MovePosition(_rigidbody.position + _movement * Time.fixedDeltaTime);
+        }
     }
 }

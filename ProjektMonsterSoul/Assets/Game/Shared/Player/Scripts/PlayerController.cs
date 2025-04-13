@@ -8,6 +8,7 @@ namespace Game.Shared.Player.Scripts
     {
         public Action<Vector2> OnMovement;
         public Action OnInteract;
+        public Action OnAttack;
         
         private PlayerInputActions _playerInputActions;
 
@@ -29,6 +30,9 @@ namespace Game.Shared.Player.Scripts
             };
             _playerInputActions.Player.Interactable.performed += (ctx) => {
                 OnInteract?.Invoke();
+            };
+            _playerInputActions.Player.Attack.performed += (ctx) => {
+                OnAttack?.Invoke();
             };
         }
 
