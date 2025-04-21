@@ -15,7 +15,6 @@ namespace Game.Shared.Enemies.Slime.Scripts
         private Transform _playerTransform;
 
         private float _timer = 0f;
-        private bool _invicibility = false;
         
         private void Awake()
         {
@@ -38,20 +37,22 @@ namespace Game.Shared.Enemies.Slime.Scripts
 
         public void StartAttack()
         {
-            _invicibility = true;
+            invincible = true;
         }
 
         public void EndAttack()
         {
-            _invicibility = false;
+            invincible = false;
         }
 
-        private void OnTriggerEnter(Collider other)
+        protected override void OnDeath()
         {
-            if (other.CompareTag("Weapon") && !_invicibility)
-            {
-                spriteAnimator.SetTrigger("TakeDamage");
-            }
+            spriteAnimator.SetTrigger("Die");
+        }
+
+        protected override void OnTakeDamage()
+        {
+            spriteAnimator.SetTrigger("TakeDamage");
         }
     }
 }
