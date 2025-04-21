@@ -1637,6 +1637,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1976240994610391177, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
+      propertyPath: m_Size.x
+      value: 0.119998224
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976240994610391177, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5867612
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976240994610391177, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00073992833
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976240994610391177, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.49981126
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229305466741124809, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
+      propertyPath: moveSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5796090120680001517, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
