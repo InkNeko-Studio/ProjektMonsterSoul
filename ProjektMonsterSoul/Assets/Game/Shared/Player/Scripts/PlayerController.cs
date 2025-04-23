@@ -6,6 +6,12 @@ namespace Game.Shared.Player.Scripts
 {
     public class PlayerController : MonoBehaviour
     {
+        public static PlayerController Instance;
+
+        public bool blockMovement;
+        public bool blockInteract;
+        public bool blockAttack;
+        
         public Action<Vector2> OnMovement;
         public Action OnInteract;
         public Action OnAttack;
@@ -17,21 +23,28 @@ namespace Game.Shared.Player.Scripts
         
         private void Awake()
         {
+            Instance = this;
             _playerInputActions = new PlayerInputActions();
         }
 
         private void Start()
         {
-            _playerInputActions.Player.Move.performed += (ctx) => {
+            _playerInputActions.Player.Move.performed += (ctx) =>
+            {
+                if (blockMovement) return;
                 OnMovement?.Invoke(ctx.ReadValue<Vector2>());
             };
             _playerInputActions.Player.Move.canceled += (ctx) => {
                 OnMovement?.Invoke(Vector2.zero);
             };
-            _playerInputActions.Player.Interactable.performed += (ctx) => {
+            _playerInputActions.Player.Interactable.performed += (ctx) =>
+            {
+                if (blockInteract) return;
                 OnInteract?.Invoke();
             };
-            _playerInputActions.Player.Attack.performed += (ctx) => {
+            _playerInputActions.Player.Attack.performed += (ctx) =>
+            {
+                if (blockAttack) return;
                 OnAttack?.Invoke();
             };
         }

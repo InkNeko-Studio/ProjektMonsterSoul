@@ -5,9 +5,9 @@ namespace Framework.AreaSystem
     [Serializable]
     public enum Area
     {
-        Chest,
-        
+        Lobby,
         Map1,
-        Map2
+        Map2,
+        SlimeBoss
     }
 }

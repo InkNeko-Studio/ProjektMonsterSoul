@@ -3,33 +3,24 @@ using Game.Shared.Player.Scripts;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class OpenHUDMenu : MonoBehaviour
+public class OpenHUDMenu : MonoBehaviour, IInteractable
 {
     [Header("HUD")] 
     [SerializeField] private GameObject _HUD;
-    [SerializeField] private PlayerController _playerController;
-    private void OnTriggerEnter2D(Collider2D col)
+    
+    public void OnInteract()
     {
-        if (col.CompareTag("Player"))
-        {
-            _playerController = col.GetComponent<PlayerController>();
-            _playerController.OnInteract += EnableHUD;
-        }
+        _HUD.SetActive(true);
+        PlayerController.Instance.blockMovement = true;
+        PlayerController.Instance.blockInteract = true;
+        PlayerController.Instance.blockInteract = true;
     }
 
-    private void OnTriggerExit2D(Collider2D col)
+    public void OnInteractionEnter()
     {
-        if (col.CompareTag("Player"))
-        {
-            _playerController.OnInteract = null;
-            _playerController = null;
-            
-        }
     }
 
-
-    private void EnableHUD()
+    public void OnInteractionLeave()
     {
-        _HUD.SetActive(!_HUD.activeSelf);
     }
 }

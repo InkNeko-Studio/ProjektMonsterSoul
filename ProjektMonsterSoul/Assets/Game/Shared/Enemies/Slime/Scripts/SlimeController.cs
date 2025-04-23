@@ -1,6 +1,7 @@
 using System;
 using Game.Shared.Enemy;
 using UnityEngine;
+using Random = System.Random;
 
 namespace Game.Shared.Enemies.Slime.Scripts
 {
@@ -10,7 +11,8 @@ namespace Game.Shared.Enemies.Slime.Scripts
         public Animator movementAnimator;
         public Animator spriteAnimator;
 
-        [Header("")]
+        [Header("Variable")]
+        public float distanceToCloseAttack;
         
         private Transform _playerTransform;
 
@@ -27,11 +29,30 @@ namespace Game.Shared.Enemies.Slime.Scripts
 
             if (_timer <= 0f)
             {
-                _timer = 10f;
-                
-                // Condition
-                movementAnimator.SetTrigger("SpinAttack");
-                spriteAnimator.SetTrigger("SpinAttack");
+
+                if (Vector3.Distance(_playerTransform.position, transform.position) <= distanceToCloseAttack)
+                {
+                    _timer = 10f;
+                    
+                    movementAnimator.SetTrigger("JumpCenter");
+                    spriteAnimator.SetTrigger("JumpCenter");
+                }
+                else
+                {
+                    _timer = 10f;
+
+                    if (new Random().Next(0, 2) == 0)
+                    {
+                        movementAnimator.SetTrigger("Spin");
+                        spriteAnimator.SetTrigger("Spin");
+                    }
+                    else
+                    {
+                        movementAnimator.SetTrigger("JumpEdge");
+                        spriteAnimator.SetTrigger("JumpEdge");
+                    }
+                    //spriteAnimator.SetTrigger("SpinAttack");                    
+                }
             }
         }
 
@@ -47,7 +68,7 @@ namespace Game.Shared.Enemies.Slime.Scripts
 
         protected override void OnDeath()
         {
-            spriteAnimator.SetTrigger("Die");
+            //spriteAnimator.SetTrigger("Die");
         }
 
         protected override void OnTakeDamage()

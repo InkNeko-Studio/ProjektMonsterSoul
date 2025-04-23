@@ -37,9 +37,10 @@ namespace Game.Shared.Player.Scripts
         {
             if (other.GetInstanceID() == _interactableId)
             {
+                interactionButton.SetActive(false);
+                if (_interactable == null) return;
                 _interactable.OnInteractionLeave();
                 _interactable = null;
-                interactionButton.SetActive(false);
             }
         }
     }

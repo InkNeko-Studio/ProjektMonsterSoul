@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+ using System.Collections.Generic;
 using Framework.SaveSystem;
 using TMPro;
 using UnityEngine;
@@ -58,7 +58,7 @@ namespace Game.Scenes.MainMenu.Scripts
             {
                 SaveController.NewSave();
                 SaveController.CurrentSave.playerData.name = nameInput.text;
-                SceneManager.LoadScene("Chest");
+                SceneManager.LoadScene("Lobby");
             });
         }
 
