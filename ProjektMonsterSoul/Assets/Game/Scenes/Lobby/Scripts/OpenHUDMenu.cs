@@ -13,7 +13,7 @@ public class OpenHUDMenu : MonoBehaviour, IInteractable
         _HUD.SetActive(true);
         PlayerController.Instance.blockMovement = true;
         PlayerController.Instance.blockInteract = true;
-        PlayerController.Instance.blockInteract = true;
+        PlayerController.Instance.blockAttack = true;
     }
 
     public void OnInteractionEnter()

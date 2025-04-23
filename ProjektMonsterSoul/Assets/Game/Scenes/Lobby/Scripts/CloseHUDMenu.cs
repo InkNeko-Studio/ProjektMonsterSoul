@@ -19,7 +19,7 @@ namespace Game.Scenes.Lobby.Scripts
                 _HUD.SetActive(false);
                 PlayerController.Instance.blockMovement = false;
                 PlayerController.Instance.blockInteract = false;
-                PlayerController.Instance.blockInteract = false;
+                PlayerController.Instance.blockAttack = false;
             });
         }
     }

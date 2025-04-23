@@ -14,7 +14,7 @@ namespace Game.Shared.Enemy
             if (invincible) return;
             
             health -= damage;
-            OnTakeDamage();
+            OnTakeDamage(damage);
 
             if (health <= 0)
             {
@@ -24,6 +24,6 @@ namespace Game.Shared.Enemy
         }
 
         protected abstract void OnDeath();
-        protected abstract void OnTakeDamage();
+        protected abstract void OnTakeDamage(int damage);
     }
 }

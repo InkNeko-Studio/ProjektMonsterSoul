@@ -71,8 +71,9 @@ namespace Game.Shared.Enemies.Slime.Scripts
             //spriteAnimator.SetTrigger("Die");
         }
 
-        protected override void OnTakeDamage()
+        protected override void OnTakeDamage(int damage)
         {
+            HitCanvas.SetHit(transform.position, damage);
             spriteAnimator.SetTrigger("TakeDamage");
         }
     }

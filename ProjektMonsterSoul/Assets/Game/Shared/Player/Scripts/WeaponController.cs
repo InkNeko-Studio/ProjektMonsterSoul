@@ -21,13 +21,10 @@ namespace Game.Shared.Player.Scripts
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            Debug.Log(other.gameObject.name);
             if (other.CompareTag("Damageable"))
             {
-                Debug.Log($"ISDAMAGEABLE {other.gameObject.name}");
                 var damageable = other.GetComponent<IDamageable>();
                 damageable.TakeDamage(SaveController.CurrentSave.playerData.equippedWeapon.damage);
-                HitCanvas.SetHit(other.transform.position, SaveController.CurrentSave.playerData.equippedWeapon.damage);
             }
         }
     }
