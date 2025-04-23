@@ -1,4 +1,5 @@
 using System;
+using Framework.SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -16,6 +17,7 @@ namespace Game.Scenes.Lobby.Scripts
             
             button.onClick.AddListener(() =>
             {
+                SaveController.CurrentSave.playerData.life = 100;
                 SceneManager.LoadScene(levelName);
             });
         }

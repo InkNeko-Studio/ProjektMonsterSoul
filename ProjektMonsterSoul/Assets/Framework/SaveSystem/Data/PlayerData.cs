@@ -9,6 +9,7 @@ namespace Framework.SaveSystem.Data
     public class PlayerData
     {
         public string name = "Player";
+        public int life = 100;
         public Weapon equippedWeapon = new Weapon() { damage = 5 };
     }
 }
