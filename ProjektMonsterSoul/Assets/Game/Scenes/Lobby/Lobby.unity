@@ -2087,15 +2087,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jelly Jumble
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 62c1f4488f7a03f43b74b76c492f7985, type: 2}
-  m_sharedMaterial: {fileID: 9012271747099278739, guid: 62c1f4488f7a03f43b74b76c492f7985, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 21b16df966fe0ea43afe304c851e3c34, type: 2}
+  m_sharedMaterial: {fileID: 6869651890179309464, guid: 21b16df966fe0ea43afe304c851e3c34, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278235662
-  m_fontColor: {r: 0.054944802, g: 0.6981132, b: 0, a: 1}
+    rgba: 4289167563
+  m_fontColor: {r: 0.7960785, g: 0.5019608, b: 0.654902, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2112,8 +2112,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4
-  m_fontSizeBase: 4
+  m_fontSize: 3.5
+  m_fontSizeBase: 3.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2150,7 +2150,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -2.697031, y: 0, z: -2.697031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
