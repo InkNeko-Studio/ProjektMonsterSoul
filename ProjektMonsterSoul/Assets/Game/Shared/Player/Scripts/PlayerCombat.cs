@@ -19,8 +19,12 @@ namespace Game.Shared.Player.Scripts
             _playerController = GetComponent<PlayerController>();
             _playerMovement = GetComponent<PlayerMovement>();
         }
-        
-        private void OnEnable() { _playerController.OnAttack += OnAttack; }
+
+        private void OnEnable()
+        {
+            _playerController.OnAttack += OnAttack; 
+            
+        }
         private void OnDisable() { _playerController.OnAttack -= OnAttack; }
 
         private void OnAttack()
@@ -43,6 +47,7 @@ namespace Game.Shared.Player.Scripts
                     break;
             }
             animator.SetTrigger(Slash);
+            SoundManager.Instance.PlaySFX(1);
         }
     }
 }
