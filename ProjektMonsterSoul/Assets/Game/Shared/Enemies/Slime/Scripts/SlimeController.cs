@@ -1,4 +1,5 @@
 using System;
+using Game.Scenes.Map.Scripts;
 using Game.Shared.Enemy;
 using UnityEngine;
 using Random = System.Random;
@@ -68,7 +69,9 @@ namespace Game.Shared.Enemies.Slime.Scripts
 
         protected override void OnDeath()
         {
-            //spriteAnimator.SetTrigger("Die");
+            spriteAnimator.SetTrigger("Die");
+            
+            WinLoseController.Instance.Win();
         }
 
         protected override void OnTakeDamage(int damage)
