@@ -1,0 +1,3042 @@
+fileFormatVersion: 2
+guid: a3118d2222084614eb1d77f4b8711aaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8002681246498014519
+    second: Multikube-rota-Sheet_0
+  - first:
+      213: -7136405275469620484
+    second: Multikube-rota-Sheet_1
+  - first:
+      213: -6933045245314944114
+    second: Multikube-rota-Sheet_2
+  - first:
+      213: -9091158241640753879
+    second: Multikube-rota-Sheet_3
+  - first:
+      213: -7001064113418061284
+    second: Multikube-rota-Sheet_4
+  - first:
+      213: 3402499256561692710
+    second: Multikube-rota-Sheet_5
+  - first:
+      213: -3166412036277627522
+    second: Multikube-rota-Sheet_6
+  - first:
+      213: 4005048488452228784
+    second: Multikube-rota-Sheet_7
+  - first:
+      213: -2084652165257237705
+    second: Multikube-rota-Sheet_8
+  - first:
+      213: 3784765388296408204
+    second: Multikube-rota-Sheet_9
+  - first:
+      213: 4414907184327547604
+    second: Multikube-rota-Sheet_10
+  - first:
+      213: 5670007523542776250
+    second: Multikube-rota-Sheet_11
+  - first:
+      213: -6688380768524411589
+    second: Multikube-rota-Sheet_12
+  - first:
+      213: -5156129190973701476
+    second: Multikube-rota-Sheet_13
+  - first:
+      213: 7366242629347738109
+    second: Multikube-rota-Sheet_14
+  - first:
+      213: -4186217472924637331
+    second: Multikube-rota-Sheet_15
+  - first:
+      213: -1771627236134073246
+    second: Multikube-rota-Sheet_16
+  - first:
+      213: -7827683855002415464
+    second: Multikube-rota-Sheet_17
+  - first:
+      213: -8648555609957986285
+    second: Multikube-rota-Sheet_18
+  - first:
+      213: -2561450680408697779
+    second: Multikube-rota-Sheet_19
+  - first:
+      213: 2893124184741221339
+    second: Multikube-rota-Sheet_20
+  - first:
+      213: -1107088475368215698
+    second: Multikube-rota-Sheet_21
+  - first:
+      213: 7407922936079248856
+    second: Multikube-rota-Sheet_22
+  - first:
+      213: -1077042776700926874
+    second: Multikube-rota-Sheet_23
+  - first:
+      213: -730343986306152830
+    second: Multikube-rota-Sheet_24
+  - first:
+      213: 323687968714083247
+    second: Multikube-rota-Sheet_25
+  - first:
+      213: -965487311674079438
+    second: Multikube-rota-Sheet_26
+  - first:
+      213: -5939964602905042832
+    second: Multikube-rota-Sheet_27
+  - first:
+      213: 6954755344782966206
+    second: Multikube-rota-Sheet_28
+  - first:
+      213: -2993165533879786588
+    second: Multikube-rota-Sheet_29
+  - first:
+      213: 7093009437707084290
+    second: Multikube-rota-Sheet_30
+  - first:
+      213: 1982083831399110844
+    second: Multikube-rota-Sheet_31
+  - first:
+      213: 1465824878020385485
+    second: Multikube-rota-Sheet_32
+  - first:
+      213: -4725831423641575552
+    second: Multikube-rota-Sheet_33
+  - first:
+      213: 5541738339739178150
+    second: Multikube-rota-Sheet_34
+  - first:
+      213: 486291088023004831
+    second: Multikube-rota-Sheet_35
+  - first:
+      213: -8865814081722526810
+    second: Multikube-rota-Sheet_36
+  - first:
+      213: -2296314682995810743
+    second: Multikube-rota-Sheet_37
+  - first:
+      213: -4830856378145236656
+    second: Multikube-rota-Sheet_38
+  - first:
+      213: 1157185846074915306
+    second: Multikube-rota-Sheet_39
+  - first:
+      213: 6203079706505677533
+    second: Multikube-rota-Sheet_40
+  - first:
+      213: 909090938555105635
+    second: Multikube-rota-Sheet_41
+  - first:
+      213: -3779726686228464347
+    second: Multikube-rota-Sheet_42
+  - first:
+      213: 1969948027742265792
+    second: Multikube-rota-Sheet_43
+  - first:
+      213: -205445278792668910
+    second: Multikube-rota-Sheet_44
+  - first:
+      213: 3605862555804140420
+    second: Multikube-rota-Sheet_45
+  - first:
+      213: -5770150549223723641
+    second: Multikube-rota-Sheet_46
+  - first:
+      213: -6766223901262669893
+    second: Multikube-rota-Sheet_47
+  - first:
+      213: 954015278307727175
+    second: Multikube-rota-Sheet_48
+  - first:
+      213: 8525534690224619903
+    second: Multikube-rota-Sheet_49
+  - first:
+      213: 4857310662012350689
+    second: Multikube-rota-Sheet_50
+  - first:
+      213: 8107386408575972214
+    second: Multikube-rota-Sheet_51
+  - first:
+      213: 5266152368581121577
+    second: Multikube-rota-Sheet_52
+  - first:
+      213: -3650370466100555011
+    second: Multikube-rota-Sheet_53
+  - first:
+      213: -1486827903892349245
+    second: Multikube-rota-Sheet_54
+  - first:
+      213: -7315872498765537752
+    second: Multikube-rota-Sheet_55
+  - first:
+      213: 6842589212852950646
+    second: Multikube-rota-Sheet_56
+  - first:
+      213: -6945579197658664369
+    second: Multikube-rota-Sheet_57
+  - first:
+      213: -5751216620778724834
+    second: Multikube-rota-Sheet_58
+  - first:
+      213: -1185843990093636172
+    second: Multikube-rota-Sheet_59
+  - first:
+      213: -2574031936311306952
+    second: Multikube-rota-Sheet_60
+  - first:
+      213: -8678776291734552455
+    second: Multikube-rota-Sheet_61
+  - first:
+      213: 4500151698065563758
+    second: Multikube-rota-Sheet_62
+  - first:
+      213: 492651562112816022
+    second: Multikube-rota-Sheet_63
+  - first:
+      213: -1685737555643444284
+    second: Multikube-rota-Sheet_64
+  - first:
+      213: -1329467468139565220
+    second: Multikube-rota-Sheet_65
+  - first:
+      213: -4337611143142008159
+    second: Multikube-rota-Sheet_66
+  - first:
+      213: -4754652478964994026
+    second: Multikube-rota-Sheet_67
+  - first:
+      213: 4021855734807489305
+    second: Multikube-rota-Sheet_68
+  - first:
+      213: 874248490734165715
+    second: Multikube-rota-Sheet_69
+  - first:
+      213: -3342744588613351940
+    second: Multikube-rota-Sheet_70
+  - first:
+      213: -2517091831320931711
+    second: Multikube-rota-Sheet_71
+  - first:
+      213: -5531180876482021624
+    second: Multikube-rota-Sheet_72
+  - first:
+      213: -5330105584961049280
+    second: Multikube-rota-Sheet_73
+  - first:
+      213: 7648219226243306356
+    second: Multikube-rota-Sheet_74
+  - first:
+      213: 8267633671344705214
+    second: Multikube-rota-Sheet_75
+  - first:
+      213: 285275882459097866
+    second: Multikube-rota-Sheet_76
+  - first:
+      213: 6864950601385040914
+    second: Multikube-rota-Sheet_77
+  - first:
+      213: 6539089933590625176
+    second: Multikube-rota-Sheet_78
+  - first:
+      213: 762090643726265140
+    second: Multikube-rota-Sheet_79
+  - first:
+      213: 3628852319646712820
+    second: Multikube-rota-Sheet_80
+  - first:
+      213: -3755765840763044989
+    second: Multikube-rota-Sheet_81
+  - first:
+      213: 7701268162026321066
+    second: Multikube-rota-Sheet_82
+  - first:
+      213: 4134752416915706455
+    second: Multikube-rota-Sheet_83
+  - first:
+      213: 2185774385243143688
+    second: Multikube-rota-Sheet_84
+  - first:
+      213: -2636840343540143831
+    second: Multikube-rota-Sheet_85
+  - first:
+      213: -5689525069225246475
+    second: Multikube-rota-Sheet_86
+  - first:
+      213: 6342470672896276259
+    second: Multikube-rota-Sheet_87
+  - first:
+      213: -5871275495486097597
+    second: Multikube-rota-Sheet_88
+  - first:
+      213: -1698143666964732241
+    second: Multikube-rota-Sheet_89
+  - first:
+      213: 8586958189843580774
+    second: Multikube-rota-Sheet_90
+  - first:
+      213: 3644972833426604760
+    second: Multikube-rota-Sheet_91
+  - first:
+      213: -1321706935778817143
+    second: Multikube-rota-Sheet_92
+  - first:
+      213: 3130514113932859735
+    second: Multikube-rota-Sheet_93
+  - first:
+      213: -2496333480369213548
+    second: Multikube-rota-Sheet_94
+  - first:
+      213: -7920913401511363746
+    second: Multikube-rota-Sheet_95
+  - first:
+      213: -7415745013128789248
+    second: Multikube-rota-Sheet_96
+  - first:
+      213: 6059538109436522704
+    second: Multikube-rota-Sheet_97
+  - first:
+      213: 2173120180647187554
+    second: Multikube-rota-Sheet_98
+  - first:
+      213: -6633255295316407193
+    second: Multikube-rota-Sheet_99
+  - first:
+      213: -8230526078582916854
+    second: Multikube-rota-Sheet_100
+  - first:
+      213: 4578419680773944006
+    second: Multikube-rota-Sheet_101
+  - first:
+      213: -3527361136876599243
+    second: Multikube-rota-Sheet_102
+  - first:
+      213: 1299251565216624627
+    second: Multikube-rota-Sheet_103
+  - first:
+      213: 6540180420452820462
+    second: Multikube-rota-Sheet_104
+  - first:
+      213: -4038671344001759050
+    second: Multikube-rota-Sheet_105
+  - first:
+      213: -5496263343259500165
+    second: Multikube-rota-Sheet_106
+  - first:
+      213: 2244403047888820362
+    second: Multikube-rota-Sheet_107
+  - first:
+      213: -3748623033893336515
+    second: Multikube-rota-Sheet_108
+  - first:
+      213: 3665296746783315842
+    second: Multikube-rota-Sheet_109
+  - first:
+      213: -998924695671764553
+    second: Multikube-rota-Sheet_110
+  - first:
+      213: -4962660784560283636
+    second: Multikube-rota-Sheet_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2454
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529553e105b2ce74395efbccb1768661
+      internalID: -485136243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2457
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b643b151be2944f923cb211b8acc9a
+      internalID: 288594782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2460
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f3126755adc8d4ebb89a4388e532f6
+      internalID: -1139452375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2474
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1546acf8fbe3ff46a04bfa3220098dd
+      internalID: 462730006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 2482
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c95ad36282aed478f11f72bf0daac7
+      internalID: -922000606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 2488
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8762ba939b78a6a4a9c76696efdb464a
+      internalID: -960509771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2490
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec1178bb2d063345b52862dd6c284b6
+      internalID: 1585304600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2491
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df50c28a4574bde48a66bb8634af207e
+      internalID: -752255410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2493
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b754df25791ae49986563bdfe89728
+      internalID: 553159339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2496
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca1c8a71a2fb548b16792267831c0d
+      internalID: 362647582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 2510
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3c5d272b036a448a213becd5c04c71
+      internalID: -862779932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2274
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb7a0af99baca64094a01bab483179e
+      internalID: 77452552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2280
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227decc8b26127a47ab53342423ebfdb
+      internalID: -1703374826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2282
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d69307788354345be46691eaa03b05
+      internalID: -1749405877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2283
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4e65e66eeb04f47807842a963284f4
+      internalID: 861198904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 2285
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0119cec0dbb3f55459b8b0cf435a9956
+      internalID: 1526452440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 2288
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6096a81bfc3522b4f91e4a429932f63c
+      internalID: -1838804493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2302
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e977fd141b7c748b28eb3fe3ba6aae
+      internalID: 138993347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2310
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ff8c1f4e1beb94d888ecdb3009d5e0
+      internalID: -1614138698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2316
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fcf833a48e1484fa7a05d4c0d0584e
+      internalID: -1088737106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2318
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653e5a0828e84d344896ef836e5d5d67
+      internalID: -408123538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 2319
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f470c8f90c9164e883eceb0b68ecc9
+      internalID: 1436560872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2077
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1358fb7d7a38e0b46b49b99d65885d17
+      internalID: 856506754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2080
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1713e61453f2341abccf6b964eda00
+      internalID: -1365961535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2093
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880b00eb10da99a4695e1e9617da472b
+      internalID: 1476177430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2102
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa0b442c90b6aa44b0f032e4c6143c3
+      internalID: -302909150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 2108
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c57bc66ea536924c965020cfc647d36
+      internalID: -2062949147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 2110
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43b6e60dc1553845967a2cf3489d9bc
+      internalID: -1906337852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2111
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f16b6ddff3b75d4d8e301073fddbe9a
+      internalID: 147222725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2110
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de83e1c82c9127439cc406274e5e275
+      internalID: 1873779961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2110
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d55bc131252844b8694326817d7908
+      internalID: 2080269508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 2110
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff13710d7ca5e0248b9e1a9ea6433f30
+      internalID: 1160564102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2110
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e768729771321ec44bd7660220211ecc
+      internalID: -450766217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1866
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bc7956019a87646b676af147305901
+      internalID: -1510161651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1866
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6191dc012ea07a459af66827f68a4a0
+      internalID: 2006652724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1866
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5e050051970204cbae543aa498de6f
+      internalID: 1709127264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1866
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd73174d9013f0b49b3bc5574e10b6a0
+      internalID: 515190300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1866
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c134529c637043949a23e5b6796cc327
+      internalID: 1915189224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1866
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b910355694a484741959f16e33af195e
+      internalID: -1975808016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1866
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68540042601ff494bb81031c584afdcd
+      internalID: -616036750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 1866
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b1fcd00913bdc48a44749d89af5e58
+      internalID: 1386767688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1866
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84f4b2ae20da49449c4b0167b3f9073
+      internalID: -1330216012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 1866
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d92ae327475c649a4f4298eb5e3492
+      internalID: 1114405867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 1866
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3946798375d911b458983106939fff6c
+      internalID: 168873944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1622
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dde79bec2b1c946b501a8bc617e977
+      internalID: -1679943097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1622
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a9a6c60d33d4b4d82366b86a9bf36f
+      internalID: 1966247450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1622
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834a91eecacf58a4a85b0f04a8bd927d
+      internalID: 1840981276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1622
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28eae8d50d322a842b336ad3d9158a84
+      internalID: -1620981971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1622
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5e4e15236dcc841ba714d01d87b4ea
+      internalID: 940487584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1622
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b36970eac614046b5c487be300d536
+      internalID: -1524703388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1622
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8638c2af041f14ca5e4ca9abb9088d
+      internalID: -1610271805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1622
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc399357a457064fbf2d88c412ed759
+      internalID: -1062622861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 1622
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c3224e6e4d0894a982e40ae7149654
+      internalID: 2112113925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 1622
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7282629c0fad6f14f90f51a1e9333513
+      internalID: 1870451278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 1622
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e596290997adbd469663e7c5d9964b2
+      internalID: 1330925731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1378
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de7a4179c09ad0409f410d7999ca08c
+      internalID: 738802397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1378
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3e296d4e95ea84395a98f881d0a624
+      internalID: -450460146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1383
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f620835546e7eed4fbf596b1a1058ae5
+      internalID: 1304499022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1380
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9c13eed754f344db971ee04a3fc933
+      internalID: 567090615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1374
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4c01d425a1a8c438c40afd038cd7d9
+      internalID: 1163923011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1359
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebab1bf679cbc3744adcb67b09419072
+      internalID: -872275819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1347
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1a30382aa8f47418c3109e655c0aef
+      internalID: -1123909941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1342
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7666721f49af54b8989fc64d88e45d
+      internalID: -384817161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1341
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b4913ec33c3d6418859d6248cc47b4
+      internalID: 1542657584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 1347
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5057515c0d1004998dc2ee5ac5fc5d
+      internalID: -1967474807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1344
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a73f8d1ac6e02f479c7e70a6299cb7a
+      internalID: 975274447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1094
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbb058b906051d48b8451a437c4afde
+      internalID: 172857870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1079
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f2e927d4645c489468e0f1f1afd41
+      internalID: 1534412413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1067
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6907a2f3d72961e44a6cf0f71e1ab381
+      internalID: 883847462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1062
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9677819cba16a6540978165f406db25f
+      internalID: -530488454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1061
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca9493230a063845ad2b8ac34ac8558
+      internalID: -1328183615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1066
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bad08f81813eb43ac1587f9c97c41a
+      internalID: 599629884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1064
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53996832c3d2eb149a323522308adef3
+      internalID: -1226371197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1058
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506a155cc5289384b824848425e639aa
+      internalID: 54291736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1043
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2da5c79b30f4c342b1cb50e2651741b
+      internalID: 615494048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 1031
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed503724ee030984f81946bebcaa5761
+      internalID: -798631920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1026
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c3a5ac6b1142f4d935460f2f3f68ab
+      internalID: -439557302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 781
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3ac4c443b03ef4ca73df22d4866a76
+      internalID: 1533545429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 786
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a67a8d063b241046bd05f1f8ca51bf0
+      internalID: 855965383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 783
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754a68c83455a934aa3c25ca5aa63117
+      internalID: -628162017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 778
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0946efee384c92d48b3bef4fc127c0cc
+      internalID: 450394335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 762
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6079af7f160456248824ea23028339db
+      internalID: 61146063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 750
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869f45f16362ee24aa1a2274732fbb3c
+      internalID: 585311339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 746
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f04131cf1d207d448e106a413559ed4
+      internalID: 117791373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 745
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a9b72549142c64ba27fb5239034c3b
+      internalID: -153896161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 746
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d30640ca7fe56248b7334599ad2c595
+      internalID: -1511295308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 746
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0e61e59dabd7b4ea9f1e9a5f25218c
+      internalID: -520014338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 746
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1c5a1667e1bda46a96768ceb3971f2
+      internalID: -336373105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 503
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e1d675958caea43b66c46ab417f5fe
+      internalID: -1598344517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 503
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ee153123e97d94d9a8b0830b1baf56
+      internalID: -769876987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 503
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e18b4bc5e0bf24d915d916cfe0ef50
+      internalID: -1144146549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 503
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf41a0c121663f468fc278d04ac744e
+      internalID: 864870137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 503
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189c4c535873a18418fe3a1e7d5048a8
+      internalID: -2069011454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 503
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1623a7492794d1e45ad94ac92b4071b0
+      internalID: 1179899532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 503
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a079a10c0476f54b8692cb1865ae8dc
+      internalID: 1104223858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 503
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a0650ad3e39f489ebe8ce15cc6180
+      internalID: 2074390196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 503
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abcb7e8cdc2a8247aecc3cbaafa4011
+      internalID: 1252577676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 503
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4336361d17023764781407d92252305a
+      internalID: 221801212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 503
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4ce1b0fb30a4e4db7307d3a2ece82c
+      internalID: 170572033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 259
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7bf39ca75f5f44f8a4717bf83e0471
+      internalID: -1634079009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 259
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5140b935924a56a43b9171d82de55440
+      internalID: 2000219837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 259
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d1e3c790500ec4aab9e76154af2443
+      internalID: 220565992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 259
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c3b0e0ead1b944c9ff03aa46b9c48c
+      internalID: -1780315276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 259
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db76171523c0cb84587a678f0af090d8
+      internalID: -1455453822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 259
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3e2db5c3eaf0549b02c957c24dbebc
+      internalID: 1391270736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 259
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7716f13fa7079124b91022e147bdb28b
+      internalID: -306213222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 259
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e19943ad019244aaa3795d7ba6ce52
+      internalID: -934872322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 259
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776d1344ef09f0b459a11406a16ea660
+      internalID: 13090958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 259
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104f9c013a1b73d4481a6164c99cd024
+      internalID: 1430138422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 259
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52db16b8fa6cac0448080379ec32c572
+      internalID: 1839431044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 14
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b1a8958623d3349a25c0725c8836a4
+      internalID: 1611050549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-rota-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 14
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209c559f334b60746b1b5d845ab5e652
+      internalID: 787727330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2928825d697217c4f9a728cd8d7a1e47
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Multikube-rota-Sheet_0: -485136243
+      Multikube-rota-Sheet_1: 288594782
+      Multikube-rota-Sheet_10: -862779932
+      Multikube-rota-Sheet_100: 2000219837
+      Multikube-rota-Sheet_101: 220565992
+      Multikube-rota-Sheet_102: -1780315276
+      Multikube-rota-Sheet_103: -1455453822
+      Multikube-rota-Sheet_104: 1391270736
+      Multikube-rota-Sheet_105: -306213222
+      Multikube-rota-Sheet_106: -934872322
+      Multikube-rota-Sheet_107: 13090958
+      Multikube-rota-Sheet_108: 1430138422
+      Multikube-rota-Sheet_109: 1839431044
+      Multikube-rota-Sheet_11: 77452552
+      Multikube-rota-Sheet_110: 1611050549
+      Multikube-rota-Sheet_111: 787727330
+      Multikube-rota-Sheet_12: -1703374826
+      Multikube-rota-Sheet_13: -1749405877
+      Multikube-rota-Sheet_14: 861198904
+      Multikube-rota-Sheet_15: 1526452440
+      Multikube-rota-Sheet_16: -1838804493
+      Multikube-rota-Sheet_17: 138993347
+      Multikube-rota-Sheet_18: -1614138698
+      Multikube-rota-Sheet_19: -1088737106
+      Multikube-rota-Sheet_2: -1139452375
+      Multikube-rota-Sheet_20: -408123538
+      Multikube-rota-Sheet_21: 1436560872
+      Multikube-rota-Sheet_22: 856506754
+      Multikube-rota-Sheet_23: -1365961535
+      Multikube-rota-Sheet_24: 1476177430
+      Multikube-rota-Sheet_25: -302909150
+      Multikube-rota-Sheet_26: -2062949147
+      Multikube-rota-Sheet_27: -1906337852
+      Multikube-rota-Sheet_28: 147222725
+      Multikube-rota-Sheet_29: 1873779961
+      Multikube-rota-Sheet_3: 462730006
+      Multikube-rota-Sheet_30: 2080269508
+      Multikube-rota-Sheet_31: 1160564102
+      Multikube-rota-Sheet_32: -450766217
+      Multikube-rota-Sheet_33: -1510161651
+      Multikube-rota-Sheet_34: 2006652724
+      Multikube-rota-Sheet_35: 1709127264
+      Multikube-rota-Sheet_36: 515190300
+      Multikube-rota-Sheet_37: 1915189224
+      Multikube-rota-Sheet_38: -1975808016
+      Multikube-rota-Sheet_39: -616036750
+      Multikube-rota-Sheet_4: -922000606
+      Multikube-rota-Sheet_40: 1386767688
+      Multikube-rota-Sheet_41: -1330216012
+      Multikube-rota-Sheet_42: 1114405867
+      Multikube-rota-Sheet_43: 168873944
+      Multikube-rota-Sheet_44: -1679943097
+      Multikube-rota-Sheet_45: 1966247450
+      Multikube-rota-Sheet_46: 1840981276
+      Multikube-rota-Sheet_47: -1620981971
+      Multikube-rota-Sheet_48: 940487584
+      Multikube-rota-Sheet_49: -1524703388
+      Multikube-rota-Sheet_5: -960509771
+      Multikube-rota-Sheet_50: -1610271805
+      Multikube-rota-Sheet_51: -1062622861
+      Multikube-rota-Sheet_52: 2112113925
+      Multikube-rota-Sheet_53: 1870451278
+      Multikube-rota-Sheet_54: 1330925731
+      Multikube-rota-Sheet_55: 738802397
+      Multikube-rota-Sheet_56: -450460146
+      Multikube-rota-Sheet_57: 1304499022
+      Multikube-rota-Sheet_58: 567090615
+      Multikube-rota-Sheet_59: 1163923011
+      Multikube-rota-Sheet_6: 1585304600
+      Multikube-rota-Sheet_60: -872275819
+      Multikube-rota-Sheet_61: -1123909941
+      Multikube-rota-Sheet_62: -384817161
+      Multikube-rota-Sheet_63: 1542657584
+      Multikube-rota-Sheet_64: -1967474807
+      Multikube-rota-Sheet_65: 975274447
+      Multikube-rota-Sheet_66: 172857870
+      Multikube-rota-Sheet_67: 1534412413
+      Multikube-rota-Sheet_68: 883847462
+      Multikube-rota-Sheet_69: -530488454
+      Multikube-rota-Sheet_7: -752255410
+      Multikube-rota-Sheet_70: -1328183615
+      Multikube-rota-Sheet_71: 599629884
+      Multikube-rota-Sheet_72: -1226371197
+      Multikube-rota-Sheet_73: 54291736
+      Multikube-rota-Sheet_74: 615494048
+      Multikube-rota-Sheet_75: -798631920
+      Multikube-rota-Sheet_76: -439557302
+      Multikube-rota-Sheet_77: 1533545429
+      Multikube-rota-Sheet_78: 855965383
+      Multikube-rota-Sheet_79: -628162017
+      Multikube-rota-Sheet_8: 553159339
+      Multikube-rota-Sheet_80: 450394335
+      Multikube-rota-Sheet_81: 61146063
+      Multikube-rota-Sheet_82: 585311339
+      Multikube-rota-Sheet_83: 117791373
+      Multikube-rota-Sheet_84: -153896161
+      Multikube-rota-Sheet_85: -1511295308
+      Multikube-rota-Sheet_86: -520014338
+      Multikube-rota-Sheet_87: -336373105
+      Multikube-rota-Sheet_88: -1598344517
+      Multikube-rota-Sheet_89: -769876987
+      Multikube-rota-Sheet_9: 362647582
+      Multikube-rota-Sheet_90: -1144146549
+      Multikube-rota-Sheet_91: 864870137
+      Multikube-rota-Sheet_92: -2069011454
+      Multikube-rota-Sheet_93: 1179899532
+      Multikube-rota-Sheet_94: 1104223858
+      Multikube-rota-Sheet_95: 2074390196
+      Multikube-rota-Sheet_96: 1252577676
+      Multikube-rota-Sheet_97: 221801212
+      Multikube-rota-Sheet_98: 170572033
+      Multikube-rota-Sheet_99: -1634079009
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

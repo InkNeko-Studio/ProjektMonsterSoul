@@ -1,6 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Framework.ItemSystem;
+using Framework.SaveSystem;
+using Framework.SaveSystem.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,7 +22,7 @@ namespace Game.Scenes.Map.Scripts
         public GameObject youLose;
 
         public List<Image> winImages;
-        public List<Sprite> items;
+        public List<ItemScriptable> items;
         
         private void Awake()
         {
@@ -30,10 +33,16 @@ namespace Game.Scenes.Map.Scripts
         {
             StartCoroutine(WinLoseCoroutine(true));
             enemy.SetActive(false);
-
+            
             foreach (var winImage in winImages)
             {
-                winImage.sprite = items[Random.Range(0, items.Count)];
+                int id = Random.Range(0, items.Count);
+                winImage.sprite = items[id].sprite;
+                SaveController.CurrentSave.playerData.AddItem(new ItemData()
+                {
+                    item = items[id].item,
+                    quantity = 1
+                });
             }
         }
         

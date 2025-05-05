@@ -8,6 +8,8 @@ namespace Framework.AreaSystem
         Lobby,
         Map1,
         Map2,
-        SlimeBoss
+        SlimeBoss,
+        Map3,
+        CubeBoss
     }
 }

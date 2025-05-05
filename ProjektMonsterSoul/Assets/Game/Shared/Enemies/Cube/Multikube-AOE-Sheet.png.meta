@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 75b44bbad7d42a24d83f03f5d9bd5a97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4611840014916147011
+    second: Multikube-AOE-Sheet_0
+  - first:
+      213: 341925323239770778
+    second: Multikube-AOE-Sheet_1
+  - first:
+      213: 7709047544953484207
+    second: Multikube-AOE-Sheet_2
+  - first:
+      213: 4017231404165269267
+    second: Multikube-AOE-Sheet_3
+  - first:
+      213: 817430585410415340
+    second: Multikube-AOE-Sheet_4
+  - first:
+      213: -6366642880504619808
+    second: Multikube-AOE-Sheet_5
+  - first:
+      213: 5803284045508679561
+    second: Multikube-AOE-Sheet_6
+  - first:
+      213: -8128995770993508509
+    second: Multikube-AOE-Sheet_7
+  - first:
+      213: 6440707432383128534
+    second: Multikube-AOE-Sheet_8
+  - first:
+      213: -621516074003717750
+    second: Multikube-AOE-Sheet_9
+  - first:
+      213: 2287844747748789191
+    second: Multikube-AOE-Sheet_10
+  - first:
+      213: 2586409549764810975
+    second: Multikube-AOE-Sheet_11
+  - first:
+      213: 8810470882276995014
+    second: Multikube-AOE-Sheet_12
+  - first:
+      213: 3815749996155316134
+    second: Multikube-AOE-Sheet_13
+  - first:
+      213: -9212296653764400510
+    second: Multikube-AOE-Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 688
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8adf5e0f37fffb0800000000000000
+      internalID: -4611840014916147011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 688
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9aca671543ceb400800000000000000
+      internalID: 341925323239770778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 687
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3bc89d5e90cfa60800000000000000
+      internalID: 7709047544953484207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 686
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31780d98da210c730800000000000000
+      internalID: 4017231404165269267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 478
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea6de759c8185b00800000000000000
+      internalID: 817430585410415340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 478
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec90c7380425a7a0800000000000000
+      internalID: -6366642880504619808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 441
+        width: 261
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9879c3f9718698050800000000000000
+      internalID: 5803284045508679561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 443
+        width: 255
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f77416a61003f80800000000000000
+      internalID: -8128995770993508509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 258
+        width: 195
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32a61194df16950800000000000000
+      internalID: 6440707432383128534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 270
+        width: 141
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8120d27c6eef57f0800000000000000
+      internalID: -621516074003717750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 270
+        width: 119
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb4fc23dae00cf10800000000000000
+      internalID: 2287844747748789191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 270
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8d86938c5c4e320800000000000000
+      internalID: 2586409549764810975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 62
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfea0a6694154a70800000000000000
+      internalID: 8810470882276995014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 63
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a72980a76444f430800000000000000
+      internalID: 3815749996155316134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-AOE-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 64
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a6ad29009572080800000000000000
+      internalID: -9212296653764400510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Multikube-AOE-Sheet_0: -4611840014916147011
+      Multikube-AOE-Sheet_1: 341925323239770778
+      Multikube-AOE-Sheet_10: 2287844747748789191
+      Multikube-AOE-Sheet_11: 2586409549764810975
+      Multikube-AOE-Sheet_12: 8810470882276995014
+      Multikube-AOE-Sheet_13: 3815749996155316134
+      Multikube-AOE-Sheet_14: -9212296653764400510
+      Multikube-AOE-Sheet_2: 7709047544953484207
+      Multikube-AOE-Sheet_3: 4017231404165269267
+      Multikube-AOE-Sheet_4: 817430585410415340
+      Multikube-AOE-Sheet_5: -6366642880504619808
+      Multikube-AOE-Sheet_6: 5803284045508679561
+      Multikube-AOE-Sheet_7: -8128995770993508509
+      Multikube-AOE-Sheet_8: 6440707432383128534
+      Multikube-AOE-Sheet_9: -621516074003717750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

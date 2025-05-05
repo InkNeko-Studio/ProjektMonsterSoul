@@ -245,11 +245,9 @@ MonoBehaviour:
   - {fileID: 435124105}
   - {fileID: 1075309683}
   items:
-  - {fileID: -7162647019817104946, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: -7121528990389113491, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: 5947598201806246533, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: 8862701587616323045, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: -732356172534689064, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
+  - {fileID: 11400000, guid: 71a672aa96c10e440abdd1f08b8a0d0b, type: 2}
+  - {fileID: 11400000, guid: 5bc84df5b7950ec4f88d241edd6d205a, type: 2}
+  - {fileID: 11400000, guid: daec6389d40a58a449d2a8559aeae66e, type: 2}
 --- !u!1 &137858452
 GameObject:
   m_ObjectHideFlags: 0
@@ -13761,6 +13759,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 935227903384712818, guid: 865472b130d92b24a96a6e0211736a0c, type: 3}
+      propertyPath: m_Volume
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 1080514702035760887, guid: 865472b130d92b24a96a6e0211736a0c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.2059236
@@ -13800,6 +13802,10 @@ PrefabInstance:
     - target: {fileID: 1080514702035760887, guid: 865472b130d92b24a96a6e0211736a0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075201484803486913, guid: 865472b130d92b24a96a6e0211736a0c, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8222111226069643697, guid: 865472b130d92b24a96a6e0211736a0c, type: 3}
       propertyPath: m_Name
