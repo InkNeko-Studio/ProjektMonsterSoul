@@ -18,7 +18,8 @@ namespace Game.Shared.Enemies.Slime.Scripts
         private Transform _playerTransform;
 
         private float _timer = 10f;
-        
+
+        private bool mood;
         private void Awake()
         {
             _playerTransform = GameObject.FindWithTag("Player").transform;
@@ -32,8 +33,7 @@ namespace Game.Shared.Enemies.Slime.Scripts
             {
                 _timer = 10f;
                 
-                movementAnimator.SetTrigger("AOE");
-                spriteAnimator.SetTrigger("AOE");
+                
             }
         }
 
@@ -58,6 +58,34 @@ namespace Game.Shared.Enemies.Slime.Scripts
         {
             HitCanvas.SetHit(transform.position, damage);
             spriteAnimator.SetTrigger("TakeDamage");
+        }
+
+        public void ChekZone(bool zone)
+        {
+            if (zone)
+            {
+                mood = true;
+            }
+            else
+            {
+                mood = false;
+            }
+
+        }
+
+        private void BattleMode()
+        {
+            if (mood)
+            {
+                movementAnimator.SetTrigger("Jump");
+                spriteAnimator.SetTrigger("Jump");
+                Debug.Log("Battle");
+            }
+        }
+
+        private void RestingMode()
+        {
+            Debug.Log("OutBattle");
         }
     }
 }

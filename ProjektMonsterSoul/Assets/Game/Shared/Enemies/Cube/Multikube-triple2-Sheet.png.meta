@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 29ee28b154d272143b52876d7cd829d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6735871010807624456
+    second: Multikube-triple2-Sheet_0
+  - first:
+      213: 3665618535535380568
+    second: Multikube-triple2-Sheet_1
+  - first:
+      213: -116547442166987934
+    second: Multikube-triple2-Sheet_2
+  - first:
+      213: -5411805087916167352
+    second: Multikube-triple2-Sheet_3
+  - first:
+      213: 2720169374099626746
+    second: Multikube-triple2-Sheet_4
+  - first:
+      213: -6649553044103150197
+    second: Multikube-triple2-Sheet_5
+  - first:
+      213: 2087228793126612534
+    second: Multikube-triple2-Sheet_6
+  - first:
+      213: -1025605472446277881
+    second: Multikube-triple2-Sheet_7
+  - first:
+      213: 2610691989906997808
+    second: Multikube-triple2-Sheet_8
+  - first:
+      213: -9093906660064918890
+    second: Multikube-triple2-Sheet_9
+  - first:
+      213: 3072904022348369774
+    second: Multikube-triple2-Sheet_10
+  - first:
+      213: 8382065251369066332
+    second: Multikube-triple2-Sheet_11
+  - first:
+      213: -4807531189456846874
+    second: Multikube-triple2-Sheet_12
+  - first:
+      213: -6301301640866938101
+    second: Multikube-triple2-Sheet_13
+  - first:
+      213: 4103788401953445112
+    second: Multikube-triple2-Sheet_14
+  - first:
+      213: -8583376185034333781
+    second: Multikube-triple2-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 736
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8033a040ffe9a7d50800000000000000
+      internalID: 6735871010807624456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 736
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8588ca403a4eed230800000000000000
+      internalID: 3665618535535380568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 735
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263082608b0f16ef0800000000000000
+      internalID: -116547442166987934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 734
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fea1d02f765e4b0800000000000000
+      internalID: -5411805087916167352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 494
+        width: 105
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afada1832abffb520800000000000000
+      internalID: 2720169374099626746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 494
+        width: 105
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b854d1bbcba08b3a0800000000000000
+      internalID: -6649553044103150197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 494
+        width: 105
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e674b578357fc10800000000000000
+      internalID: 2087228793126612534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 494
+        width: 105
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7079427b14154c1f0800000000000000
+      internalID: -1025605472446277881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 254
+        width: 105
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0324d54688a0b3420800000000000000
+      internalID: 2610691989906997808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 254
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69285420314fbc180800000000000000
+      internalID: -9093906660064918890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 254
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f81f86de525aa20800000000000000
+      internalID: 3072904022348369774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 254
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f9fff9fe3135470800000000000000
+      internalID: 8382065251369066332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 14
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef30d5cad7384db0800000000000000
+      internalID: -4807531189456846874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 14
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b034a891b874d88a0800000000000000
+      internalID: -6301301640866938101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 15
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f49dcb0fc593f830800000000000000
+      internalID: 4103788401953445112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multikube-triple2-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 16
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba12b7d16d8b1e880800000000000000
+      internalID: -8583376185034333781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
