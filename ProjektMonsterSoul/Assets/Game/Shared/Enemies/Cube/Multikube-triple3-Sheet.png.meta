@@ -141,6 +141,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -509,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Multikube-triple3-Sheet_0: 7139876776392720905
+      Multikube-triple3-Sheet_1: 7407823736684336382
+      Multikube-triple3-Sheet_10: -7520522068909618209
+      Multikube-triple3-Sheet_11: 2169896458404749316
+      Multikube-triple3-Sheet_12: -980498398320978
+      Multikube-triple3-Sheet_13: -8980658708345554953
+      Multikube-triple3-Sheet_14: 3313696348155282659
+      Multikube-triple3-Sheet_15: 8681182143532659356
+      Multikube-triple3-Sheet_2: 6352604748081919022
+      Multikube-triple3-Sheet_3: -5953501750533244205
+      Multikube-triple3-Sheet_4: -4810591089788156959
+      Multikube-triple3-Sheet_5: 8858817499882470946
+      Multikube-triple3-Sheet_6: -4413902636593928543
+      Multikube-triple3-Sheet_7: 3365709838713595177
+      Multikube-triple3-Sheet_8: 1813070139517145609
+      Multikube-triple3-Sheet_9: 3373181800668558864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

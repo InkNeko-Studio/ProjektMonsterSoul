@@ -1,4 +1,5 @@
 using System;
+using Framework.ItemSystem;
 using Framework.SaveSystem;
 using Game.Shared.Enemy;
 using UnityEngine;
@@ -7,6 +8,9 @@ namespace Game.Shared.Player.Scripts
 {
     public class WeaponController : MonoBehaviour
     {
+        public SpriteRenderer spriteRenderer;
+        private WeaponId _lastWeapon;
+        
         [HideInInspector] public bool attacking;
 
         public void StartAttacking()
@@ -24,7 +28,18 @@ namespace Game.Shared.Player.Scripts
             if (other.CompareTag("Damageable"))
             {
                 var damageable = other.GetComponent<IDamageable>();
-                damageable.TakeDamage(SaveController.CurrentSave.playerData.equippedWeapon.damage);
+                var weapon = AllWeapon.GetWeapon(SaveController.CurrentSave.playerData.equippedWeapon);
+                damageable.TakeDamage(weapon.weaponDamage);
+            }
+        }
+
+        public void SetSprite()
+        {
+            if (SaveController.CurrentSave.playerData.equippedWeapon != _lastWeapon)
+            {
+                var weapon = AllWeapon.GetWeapon(SaveController.CurrentSave.playerData.equippedWeapon);
+                spriteRenderer.sprite = weapon.weaponSprite;
+                _lastWeapon = SaveController.CurrentSave.playerData.equippedWeapon;
             }
         }
     }

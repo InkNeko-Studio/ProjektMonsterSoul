@@ -48,6 +48,7 @@ namespace Game.Shared.Player.Scripts
             }
             animator.SetTrigger(Slash);
             SoundManager.Instance.PlaySFX(1);
+            weapon.SetSprite();
         }
     }
 }

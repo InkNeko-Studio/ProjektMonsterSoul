@@ -4,9 +4,9 @@ using Framework.ItemSystem;
 namespace Framework.SaveSystem.Data
 {
     [Serializable]
-    public class ItemData
+    public class MaterialData
     {
-        public Item item;
+        public MaterialId materialId;
         public int quantity;
     }
 }

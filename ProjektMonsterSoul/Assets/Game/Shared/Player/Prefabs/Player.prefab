@@ -601,6 +601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d0c8862206dfc4ea64799e58230aad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 3125724470888063277}
   attacking: 0
 --- !u!61 &1976240994610391177
 BoxCollider2D:

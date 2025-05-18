@@ -11,6 +11,13 @@ using Random = UnityEngine.Random;
 
 namespace Game.Scenes.Map.Scripts
 {
+    [Serializable]
+    public class DropData
+    {
+        public Vector2Int dropRange;
+        public MaterialId materialId;
+    }
+    
     public class WinLoseController : MonoBehaviour
     {
         public static WinLoseController Instance;
@@ -22,7 +29,7 @@ namespace Game.Scenes.Map.Scripts
         public GameObject youLose;
 
         public List<Image> winImages;
-        public List<ItemScriptable> items;
+        public List<DropData> dropMaterials;
         
         private void Awake()
         {
@@ -36,12 +43,13 @@ namespace Game.Scenes.Map.Scripts
             
             foreach (var winImage in winImages)
             {
-                int id = Random.Range(0, items.Count);
-                winImage.sprite = items[id].sprite;
-                SaveController.CurrentSave.playerData.AddItem(new ItemData()
+                int id = Random.Range(0, dropMaterials.Count);
+                var foundMaterial = AllMaterial.GetMaterial(dropMaterials[id].materialId);
+                winImage.sprite = foundMaterial.materialSprite;
+                SaveController.CurrentSave.playerData.AddMaterial(new MaterialData()
                 {
-                    item = items[id].item,
-                    quantity = 1
+                    materialId = foundMaterial.materialId,
+                    quantity = Random.Range(dropMaterials[id].dropRange.x, dropMaterials[id].dropRange.y)
                 });
             }
         }
