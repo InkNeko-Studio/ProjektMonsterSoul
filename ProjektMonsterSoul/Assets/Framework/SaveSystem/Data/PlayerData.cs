@@ -12,11 +12,15 @@ namespace Framework.SaveSystem.Data
     {
         public string name = "Player";
         public int life = 100;
+        public int maxLife = 100;
         public WeaponId equippedWeapon = WeaponId.DefaultSword;
 
         public List<WeaponId> weapons = new List<WeaponId>()
         {
-            WeaponId.DefaultSword
+            WeaponId.DefaultSword,
+            WeaponId.DefaultGreatSword,
+            WeaponId.DefaultLance,
+            WeaponId.DefaultDagger
         };
         public List<MaterialData> materials = new List<MaterialData>()
         {
@@ -41,11 +45,26 @@ namespace Framework.SaveSystem.Data
                 materialId = MaterialId.SlimeMaterial4
             },
         };
+        public List<ConsumableData> consumables = new List<ConsumableData>()
+        {
+            new ConsumableData()
+            {
+                quantity = 10,
+                consumableId = ConsumableId.RedPotion,
+            },
+            new ConsumableData()
+            {
+                quantity = 10,
+                consumableId = ConsumableId.GreenPotion,
+            },
+        };
 
         public List<WeaponId> unlockedWeapons = new List<WeaponId>
         {
             WeaponId.DefaultSword,
-            WeaponId.SlimeSword
+            WeaponId.DefaultGreatSword,
+            WeaponId.DefaultLance,
+            WeaponId.DefaultDagger
         };
 
         public void AddMaterial(MaterialData newMaterial)
@@ -55,6 +74,8 @@ namespace Framework.SaveSystem.Data
                 oldMaterial.quantity += newMaterial.quantity;
             else
                 materials.Add(newMaterial);
+            
+            materials.Sort((a, b) => a.materialId.CompareTo(b.materialId));
         }
 
         public void RemoveMaterial(MaterialData newMaterial)
@@ -65,6 +86,45 @@ namespace Framework.SaveSystem.Data
             oldMaterial.quantity -= newMaterial.quantity;
             
             if (oldMaterial.quantity <= 0) materials.Remove(oldMaterial);
+            
+            materials.Sort((a, b) => a.materialId.CompareTo(b.materialId));
+        }
+
+        public void AddConsumable(ConsumableData newConsumable)
+        {
+            var oldConsumable = consumables.Find((x) => x.consumableId == newConsumable.consumableId);
+            if (oldConsumable != null)
+                oldConsumable.quantity += newConsumable.quantity;
+            else
+                consumables.Add(newConsumable);
+            
+            consumables.Sort((a, b) => a.consumableId.CompareTo(b.consumableId));
+        }
+
+        public void RemoveConsumable(ConsumableData newConsumable)
+        {
+            var oldConsumable = consumables.Find((x) => x.consumableId == newConsumable.consumableId);
+            if (oldConsumable == null) return;
+            
+            oldConsumable.quantity -= newConsumable.quantity;
+            
+            if (oldConsumable.quantity <= 0) consumables.Remove(oldConsumable);
+            
+            consumables.Sort((a, b) => a.consumableId.CompareTo(b.consumableId));
+        }
+
+        public void AddWeapon(WeaponId newWeapon)
+        {
+            if (weapons.Contains(newWeapon)) return;
+            weapons.Add(newWeapon);
+            weapons.Sort();
+        }
+
+        public void UnlockWeapon(WeaponId newWeapon)
+        {
+            if (unlockedWeapons.Contains(newWeapon)) return;
+            unlockedWeapons.Add(newWeapon);
+            weapons.Sort();
         }
     }
 }

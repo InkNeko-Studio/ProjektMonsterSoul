@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf6a6bccb938495183e1867fd1a865ca, type: 3}
   m_Name: DefaultSword
   m_EditorClassIdentifier: 
-  weaponId: 0
-  weaponName: D. Sword
+  weaponId: 100
+  weaponName: Default S.
   weaponSprite: {fileID: 4749540043083686546, guid: 294358168dc416444a9220db3cbc802c, type: 3}
   weaponDamage: 5
+  craftData: []

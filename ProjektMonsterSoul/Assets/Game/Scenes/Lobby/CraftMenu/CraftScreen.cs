@@ -12,7 +12,10 @@ namespace Game.Scenes.Lobby
     public class CraftScreen : MonoBehaviour
     {
         [Header("Tabs")]
-        public Button swordsButton;
+        public Button swordButton;
+        public Button greatSwordButton;
+        public Button lanceButton;
+        public Button daggerButton;
 
         [Header("Content")]
         public RectTransform content;
@@ -28,15 +31,39 @@ namespace Game.Scenes.Lobby
         private void OnEnable()
         {
             EnableButtons();
-            swordsButton.interactable = false;
-            ListSwords();
+            swordButton.interactable = false;
+            ListWeapons(WeaponClassId.Sword);
             
-            swordsButton.onClick.RemoveAllListeners();
-            swordsButton.onClick.AddListener(() =>
+            swordButton.onClick.RemoveAllListeners();
+            swordButton.onClick.AddListener(() =>
             {
                 EnableButtons();
-                swordsButton.interactable = false;
-                ListSwords();
+                swordButton.interactable = false;
+                ListWeapons(WeaponClassId.Sword);
+            });
+            
+            greatSwordButton.onClick.RemoveAllListeners();
+            greatSwordButton.onClick.AddListener(() =>
+            {
+                EnableButtons();
+                greatSwordButton.interactable = false;
+                ListWeapons(WeaponClassId.GreatSword);
+            });
+            
+            lanceButton.onClick.RemoveAllListeners();
+            lanceButton.onClick.AddListener(() =>
+            {
+                EnableButtons();
+                lanceButton.interactable = false;
+                ListWeapons(WeaponClassId.Lance);
+            });
+            
+            daggerButton.onClick.RemoveAllListeners();
+            daggerButton.onClick.AddListener(() =>
+            {
+                EnableButtons();
+                daggerButton.interactable = false;
+                ListWeapons(WeaponClassId.Dagger);
             });
             
             craftButton.onClick.RemoveAllListeners();
@@ -45,10 +72,13 @@ namespace Game.Scenes.Lobby
 
         private void EnableButtons()
         {
-            swordsButton.interactable = true;
+            swordButton.interactable = true;
+            greatSwordButton.interactable = true;
+            lanceButton.interactable = true;
+            daggerButton.interactable = true;
         }
 
-        private void ListSwords()
+        private void ListWeapons(WeaponClassId classId)
         {
             weaponInfo.SetActive(false);
             for (int i = 0; i < content.childCount; i++)
@@ -57,11 +87,10 @@ namespace Game.Scenes.Lobby
             }
             foreach (var unlockedWeapon in SaveController.CurrentSave.playerData.unlockedWeapons)
             {
-                if (!SaveController.CurrentSave.playerData.weapons.Contains(unlockedWeapon))
-                {
-                    var weaponInst = Instantiate(weaponPrefab, content);
-                    weaponInst.SetData(unlockedWeapon, OnWeaponClick);
-                }
+                if (SaveController.CurrentSave.playerData.weapons.Contains(unlockedWeapon)) continue;
+                if (WeaponIdHelper.GetClass(unlockedWeapon) != classId) continue;
+                var weaponInst = Instantiate(weaponPrefab, content);
+                weaponInst.SetData(unlockedWeapon, OnWeaponClick);
             }
 
             StartCoroutine(FixContent());
@@ -79,12 +108,10 @@ namespace Game.Scenes.Lobby
                 {
                     craftMaterial.gameObject.SetActive(true);
                     craftMaterial.SetData(weapon.craftData[i].material, weapon.craftData[i].quantity);
-                    Debug.LogError("Ativou");
                 }
                 else
                 {
                     craftMaterial.gameObject.SetActive(false);
-                    Debug.LogError("Desativou");
                 }
 
                 i++;
@@ -121,8 +148,8 @@ namespace Game.Scenes.Lobby
                     materialId = craftData.material
                 });
             }
-            SaveController.CurrentSave.playerData.weapons.Add(_selectedWeapon);
-            ListSwords();
+            SaveController.CurrentSave.playerData.AddWeapon(_selectedWeapon);
+            ListWeapons(WeaponIdHelper.GetClass(_selectedWeapon));
         }
         
         private IEnumerator FixContent()

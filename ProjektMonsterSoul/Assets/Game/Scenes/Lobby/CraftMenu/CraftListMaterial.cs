@@ -16,7 +16,6 @@ namespace Game.Scenes.Lobby
             var mat = AllMaterial.GetMaterial(material);
             itemSprite.sprite = mat.materialSprite;
             itemQuantity.text = quantity.ToString();
-            Debug.LogError($"{mat.materialId} {mat.materialName}");
         }
     }
 }

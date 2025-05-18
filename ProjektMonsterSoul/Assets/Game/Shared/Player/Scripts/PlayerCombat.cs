@@ -1,10 +1,13 @@
+using Framework.ItemSystem;
+using Framework.SaveSystem;
 using UnityEngine;
 
 namespace Game.Shared.Player.Scripts
 {
     public class PlayerCombat : MonoBehaviour
     {
-        private static readonly int Slash = Animator.StringToHash("Slash");
+        private static readonly int Weapon = Animator.StringToHash("Weapon");
+        private static readonly int Attack = Animator.StringToHash("Attack");
 
         [Header("References")]
         [SerializeField] private Transform direction;
@@ -46,7 +49,8 @@ namespace Game.Shared.Player.Scripts
                     direction.rotation = Quaternion.Euler(0f, 0f, 270f);
                     break;
             }
-            animator.SetTrigger(Slash);
+            animator.SetInteger(Weapon, (int)WeaponIdHelper.GetClass(SaveController.CurrentSave.playerData.equippedWeapon));
+            animator.SetTrigger(Attack);
             SoundManager.Instance.PlaySFX(1);
             weapon.SetSprite();
         }

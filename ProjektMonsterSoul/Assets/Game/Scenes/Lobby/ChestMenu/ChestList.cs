@@ -17,6 +17,7 @@ namespace Game.Scenes.Lobby
         [Header("Content")]
         public RectTransform content;
         public ChestListItemMaterial materialPrefab;
+        public ChestListItemConsumable consumablePrefab;
         public ChestListItemWeapon weaponPrefab;
         
         private void OnEnable()
@@ -77,6 +78,11 @@ namespace Game.Scenes.Lobby
             for (int i = 0; i < content.childCount; i++)
             {
                 Destroy(content.GetChild(i).gameObject);
+            }
+            foreach (var consumable in SaveController.CurrentSave.playerData.consumables)
+            {
+                var conInst = Instantiate(consumablePrefab, content);
+                conInst.SetData(consumable);
             }
 
             StartCoroutine(FixContent());

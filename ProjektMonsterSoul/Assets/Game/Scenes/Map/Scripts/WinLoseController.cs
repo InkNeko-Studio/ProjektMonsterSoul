@@ -30,6 +30,7 @@ namespace Game.Scenes.Map.Scripts
 
         public List<Image> winImages;
         public List<DropData> dropMaterials;
+        public List<WeaponId> unlockWeapons;
         
         private void Awake()
         {
@@ -51,6 +52,11 @@ namespace Game.Scenes.Map.Scripts
                     materialId = foundMaterial.materialId,
                     quantity = Random.Range(dropMaterials[id].dropRange.x, dropMaterials[id].dropRange.y)
                 });
+            }
+
+            foreach (var weapon in unlockWeapons)
+            {
+                SaveController.CurrentSave.playerData.UnlockWeapon(weapon);
             }
         }
         

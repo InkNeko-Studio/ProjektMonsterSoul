@@ -16,6 +16,9 @@ namespace Game.Shared.Player.Scripts
         public Action OnInteract;
         public Action OnAttack;
         
+        public Action OnUseItem;
+        public Action<float> OnSelectItem;
+        
         private PlayerInputActions _playerInputActions;
 
         private int _interactableId;
@@ -46,6 +49,14 @@ namespace Game.Shared.Player.Scripts
             {
                 if (blockAttack) return;
                 OnAttack?.Invoke();
+            };
+            _playerInputActions.Player.UseItem.performed += (ctx) =>
+            {
+                OnUseItem?.Invoke();
+            };
+            _playerInputActions.Player.SelectItem.performed += (ctx) =>
+            {
+                OnSelectItem?.Invoke(ctx.ReadValue<float>());
             };
         }
 

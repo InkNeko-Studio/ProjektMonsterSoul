@@ -12,15 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf6a6bccb938495183e1867fd1a865ca, type: 3}
   m_Name: SlimeSword
   m_EditorClassIdentifier: 
-  weaponId: 1
-  weaponName: S. Sword
+  weaponId: 101
+  weaponName: Slime S.
   weaponSprite: {fileID: -1377929721774197098, guid: e29bd715a0fe33546917ddca5517eb64, type: 3}
   weaponDamage: 10
   craftData:
   - quantity: 2
     material: 10
-  - quantity: 1
-    material: 11
   - quantity: 4
     material: 12
   - quantity: 2
