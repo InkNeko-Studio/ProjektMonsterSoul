@@ -17,8 +17,6 @@ namespace Game.Shared.Enemies.Slime.Scripts
         
         private Transform _playerTransform;
 
-        private float _timer = 10f;
-
         private bool mood;
         private void Awake()
         {
@@ -27,14 +25,7 @@ namespace Game.Shared.Enemies.Slime.Scripts
 
         private void FixedUpdate()
         {
-            _timer -= Time.fixedDeltaTime;
             
-            if (_timer <= 0f)
-            {
-                _timer = 10f;
-                
-                
-            }
         }
 
         public void StartAttack()

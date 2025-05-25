@@ -244,12 +244,8 @@ MonoBehaviour:
   - {fileID: 1248841836}
   - {fileID: 435124105}
   - {fileID: 1075309683}
-  items:
-  - {fileID: -7162647019817104946, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: -7121528990389113491, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: 5947598201806246533, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: 8862701587616323045, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: -732356172534689064, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
+  dropMaterials: []
+  unlockWeapons: 
 --- !u!1 &137858452
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,6 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 5446403524162855481}
+  _Count: 0
 --- !u!1 &391228600
 GameObject:
   m_ObjectHideFlags: 0
@@ -10085,7 +10082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5796090120680001517, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.26
+      value: -17.64
       objectReference: {fileID: 0}
     - target: {fileID: 5796090120680001517, guid: 8572ef1dd7e0a0944be8e1f01899cc02, type: 3}
       propertyPath: m_LocalPosition.y
