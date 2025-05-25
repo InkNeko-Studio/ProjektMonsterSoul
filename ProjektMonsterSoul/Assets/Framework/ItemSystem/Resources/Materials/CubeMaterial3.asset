@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CubeMaterial3
   m_EditorClassIdentifier: 
   materialId: 22
-  materialName: Cube Heart
+  materialName: Cube Glue
   materialSprite: {fileID: -5268949709028964397, guid: 6a910dcac9396104c80d8b185bad5b42, type: 3}

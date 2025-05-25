@@ -57,6 +57,8 @@ public class LifeBarController : MonoBehaviour
         };
 
         ShowSelectItem();
+
+        SaveController.CurrentSave.playerData.OnConsumableChanged = ShowSelectItem;
     }
 
     private void ShowSelectItem()

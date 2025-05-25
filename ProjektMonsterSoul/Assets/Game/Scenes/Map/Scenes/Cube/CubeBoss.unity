@@ -244,12 +244,16 @@ MonoBehaviour:
   - {fileID: 1248841836}
   - {fileID: 435124105}
   - {fileID: 1075309683}
-  items:
-  - {fileID: -7162647019817104946, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: -7121528990389113491, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: 5947598201806246533, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: 8862701587616323045, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
-  - {fileID: -732356172534689064, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
+  dropMaterials:
+  - dropRange: {x: 1, y: 2}
+    materialId: 20
+  - dropRange: {x: 1, y: 1}
+    materialId: 21
+  - dropRange: {x: 1, y: 2}
+    materialId: 22
+  - dropRange: {x: 1, y: 4}
+    materialId: 23
+  unlockWeapons: 66000000ca0000002e01000092010000
 --- !u!1 &137858452
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,6 +775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 5446403524162855481}
+  _Count: 0
 --- !u!1 &391228600
 GameObject:
   m_ObjectHideFlags: 0
@@ -9994,7 +9999,7 @@ GameObject:
   - component: {fileID: 490600207}
   - component: {fileID: 490600206}
   m_Layer: 0
-  m_Name: Map2
+  m_Name: Map3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10012,7 +10017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257656b9c0688cf4dbfaa94077bb1ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 2
+  area: 4
   offset: {x: 2, y: 0, z: 0}
 --- !u!61 &490600207
 BoxCollider2D:
@@ -13121,7 +13126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b2f9e5aa0fb4b99a8884aef791b3b68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 3
+  area: 5
   areaBorders:
   - {fileID: 490600206}
   player: {fileID: 560130993}

@@ -14,7 +14,7 @@ namespace Framework.SaveSystem.Data
         public int life = 100;
         public int maxLife = 100;
         public WeaponId equippedWeapon = WeaponId.DefaultSword;
-
+        
         public List<WeaponId> weapons = new List<WeaponId>()
         {
             WeaponId.DefaultSword,
@@ -90,6 +90,8 @@ namespace Framework.SaveSystem.Data
             materials.Sort((a, b) => a.materialId.CompareTo(b.materialId));
         }
 
+        public Action OnConsumableChanged;
+        
         public void AddConsumable(ConsumableData newConsumable)
         {
             var oldConsumable = consumables.Find((x) => x.consumableId == newConsumable.consumableId);
@@ -99,6 +101,7 @@ namespace Framework.SaveSystem.Data
                 consumables.Add(newConsumable);
             
             consumables.Sort((a, b) => a.consumableId.CompareTo(b.consumableId));
+            OnConsumableChanged?.Invoke();
         }
 
         public void RemoveConsumable(ConsumableData newConsumable)
@@ -111,6 +114,7 @@ namespace Framework.SaveSystem.Data
             if (oldConsumable.quantity <= 0) consumables.Remove(oldConsumable);
             
             consumables.Sort((a, b) => a.consumableId.CompareTo(b.consumableId));
+            OnConsumableChanged?.Invoke();
         }
 
         public void AddWeapon(WeaponId newWeapon)

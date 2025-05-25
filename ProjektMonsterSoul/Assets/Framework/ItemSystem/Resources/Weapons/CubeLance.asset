@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf6a6bccb938495183e1867fd1a865ca, type: 3}
   m_Name: CubeLance
   m_EditorClassIdentifier: 
-  weaponId: 301
-  weaponName: Slime Lance
+  weaponId: 302
+  weaponName: Cube Lance
   weaponSprite: {fileID: -5826379800971487177, guid: 48c4f86692b709845a98985ef97a55e4, type: 3}
   weaponDamage: 30
   craftData:

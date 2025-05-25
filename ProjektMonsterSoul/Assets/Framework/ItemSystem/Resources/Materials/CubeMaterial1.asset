@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CubeMaterial1
   m_EditorClassIdentifier: 
   materialId: 20
-  materialName: S. Drop
+  materialName: Cube Gum
   materialSprite: {fileID: -124268371680170535, guid: 6a910dcac9396104c80d8b185bad5b42, type: 3}
