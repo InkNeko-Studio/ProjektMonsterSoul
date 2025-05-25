@@ -10,10 +10,10 @@ namespace Framework.ItemSystem
         SlimeMaterial3 = 012,
         SlimeMaterial4 = 013,
         
-        BlockMaterial1 = 020,
-        BlockMaterial2 = 021,
-        BlockMaterial3 = 022,
-        BlockMaterial4 = 023,
+        CubeMaterial1 = 020,
+        CubeMaterial2 = 021,
+        CubeMaterial3 = 022,
+        CubeMaterial4 = 023,
         
         ClownMaterial1 = 030,
         ClownMaterial2 = 031,

@@ -8,19 +8,19 @@ namespace Framework.ItemSystem
     {
         DefaultSword = 0100,
         SlimeSword = 0101,
-        BlockSword = 0102,
+        CubeSword = 0102,
         
         DefaultGreatSword = 0200,
         SlimeGreatSword = 0201,
-        BlockGreatSword = 0202,
+        CubeGreatSword = 0202,
         
         DefaultLance = 0300,
         SlimeLance = 0301,
-        BlockLance = 0302,
+        CubeLance = 0302,
         
         DefaultDagger = 0400,
         SlimeDagger = 0401,
-        BlockDagger = 0402,
+        CubeDagger = 0402,
     }
 
     public enum WeaponClassId

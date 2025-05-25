@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SlimeGreatSword
   m_EditorClassIdentifier: 
   weaponId: 201
-  weaponName: Slime G.S.
+  weaponName: Slime G. Sword
   weaponSprite: {fileID: -3148267276806599523, guid: e29bd715a0fe33546917ddca5517eb64, type: 3}
   weaponDamage: 40
   craftData:

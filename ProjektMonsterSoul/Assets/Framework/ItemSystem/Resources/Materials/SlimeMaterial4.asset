@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SlimeMaterial4
   m_EditorClassIdentifier: 
   materialId: 13
-  materialName: S. Part
+  materialName: Slime Part
   materialSprite: {fileID: -7162647019817104946, guid: 6987324a113017249b1e4155b1a21b37, type: 3}

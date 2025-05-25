@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DefaultLance
   m_EditorClassIdentifier: 
   weaponId: 300
-  weaponName: Default L.
+  weaponName: Default Lance
   weaponSprite: {fileID: 5509683078804162342, guid: 294358168dc416444a9220db3cbc802c, type: 3}
   weaponDamage: 10
   craftData: []

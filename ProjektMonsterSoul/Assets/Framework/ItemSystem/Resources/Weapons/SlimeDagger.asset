@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SlimeDagger
   m_EditorClassIdentifier: 
   weaponId: 401
-  weaponName: Slime D.
+  weaponName: Slime Dagger
   weaponSprite: {fileID: 1066734195492699952, guid: e29bd715a0fe33546917ddca5517eb64, type: 3}
   weaponDamage: 6
   craftData:

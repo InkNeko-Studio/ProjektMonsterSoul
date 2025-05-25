@@ -247,11 +247,11 @@ MonoBehaviour:
   dropMaterials:
   - dropRange: {x: 1, y: 2}
     materialId: 10
-  - dropRange: {x: 1, y: 2}
+  - dropRange: {x: 1, y: 1}
     materialId: 11
   - dropRange: {x: 1, y: 2}
     materialId: 12
-  - dropRange: {x: 1, y: 2}
+  - dropRange: {x: 1, y: 4}
     materialId: 13
   unlockWeapons: 65000000c90000002d01000091010000
 --- !u!1 &137858452

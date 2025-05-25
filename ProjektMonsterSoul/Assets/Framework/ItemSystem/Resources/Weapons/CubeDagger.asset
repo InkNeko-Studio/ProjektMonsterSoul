@@ -10,10 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf6a6bccb938495183e1867fd1a865ca, type: 3}
-  m_Name: DefaultSword
+  m_Name: CubeDagger
   m_EditorClassIdentifier: 
-  weaponId: 100
-  weaponName: Default Sword
-  weaponSprite: {fileID: 4749540043083686546, guid: 294358168dc416444a9220db3cbc802c, type: 3}
-  weaponDamage: 5
-  craftData: []
+  weaponId: 402
+  weaponName: Cube Dagger
+  weaponSprite: {fileID: 381653265459520018, guid: 48c4f86692b709845a98985ef97a55e4, type: 3}
+  weaponDamage: 9
+  craftData:
+  - quantity: 2
+    material: 20
+  - quantity: 1
+    material: 21
+  - quantity: 4
+    material: 22

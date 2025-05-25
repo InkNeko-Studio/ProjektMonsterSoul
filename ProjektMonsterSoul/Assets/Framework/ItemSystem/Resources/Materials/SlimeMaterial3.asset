@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SlimeMaterial3
   m_EditorClassIdentifier: 
   materialId: 12
-  materialName: S. Heart
+  materialName: Slime Heart
   materialSprite: {fileID: -9098891631924085042, guid: 6987324a113017249b1e4155b1a21b37, type: 3}
