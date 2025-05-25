@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DefaultGreatSword
   m_EditorClassIdentifier: 
   weaponId: 200
-  weaponName: Default G.S.
+  weaponName: Default G. Sword
   weaponSprite: {fileID: 5564045908333871945, guid: 294358168dc416444a9220db3cbc802c, type: 3}
   weaponDamage: 20
   craftData: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DefaultDagger
   m_EditorClassIdentifier: 
   weaponId: 400
-  weaponName: Default D.
+  weaponName: Default Dagger
   weaponSprite: {fileID: 8816135237547081285, guid: 294358168dc416444a9220db3cbc802c, type: 3}
   weaponDamage: 3
   craftData: []
