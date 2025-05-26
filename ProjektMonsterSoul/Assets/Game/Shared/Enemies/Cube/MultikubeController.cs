@@ -18,6 +18,7 @@ namespace Game.Shared.Enemies.Slime.Scripts
         private Transform _playerTransform;
 
         private bool mood;
+        public GameObject _HitController;
         private void Awake()
         {
             _playerTransform = GameObject.FindWithTag("Player").transform;
@@ -71,12 +72,31 @@ namespace Game.Shared.Enemies.Slime.Scripts
                 movementAnimator.SetTrigger("Jump");
                 spriteAnimator.SetTrigger("Jump");
                 Debug.Log("Battle");
+                Invoke("SetHit",2);
             }
         }
 
         private void RestingMode()
         {
             Debug.Log("OutBattle");
+        }
+
+        public void StopAndHit(string id)
+        {
+            movementAnimator.enabled = false;
+            spriteAnimator.SetTrigger(id);
+            Invoke("ReturnToMove",3);
+           
+        }
+
+        private void ReturnToMove()
+        {
+            movementAnimator.enabled = true;
+        }
+
+        private void SetHit()
+        {
+            _HitController.SetActive(true);
         }
     }
 }
