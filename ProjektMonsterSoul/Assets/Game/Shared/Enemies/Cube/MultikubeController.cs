@@ -78,7 +78,11 @@ namespace Game.Shared.Enemies.Slime.Scripts
 
         private void RestingMode()
         {
-            Debug.Log("OutBattle");
+            if (!mood)
+            {
+                movementAnimator.SetTrigger("Move");
+                spriteAnimator.SetTrigger("Move");
+            }
         }
 
         public void StopAndHit(string id)
@@ -97,6 +101,11 @@ namespace Game.Shared.Enemies.Slime.Scripts
         private void SetHit()
         {
             _HitController.SetActive(true);
+        }
+
+        public void AreaHit()
+        {
+            spriteAnimator.SetTrigger("Area");
         }
     }
 }
