@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad43acad1c113a42a4b605e418866da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxCollider: {fileID: 1089242166774619637}
   spriteRenderer: {fileID: 8529175304208513191}
   closedSprite: {fileID: -68226147, guid: 49478e3b7a8918c4cb4c7788fd80f77d, type: 3}
   quantityRange: {x: 1, y: 1}
