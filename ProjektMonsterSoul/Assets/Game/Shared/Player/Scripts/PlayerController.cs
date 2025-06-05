@@ -15,6 +15,7 @@ namespace Game.Shared.Player.Scripts
         public Action<Vector2> OnMovement;
         public Action OnInteract;
         public Action OnAttack;
+        public Action<Vector2> OnDash;
         
         public Action OnUseItem;
         public Action<float> OnSelectItem;
@@ -47,8 +48,12 @@ namespace Game.Shared.Player.Scripts
             };
             _playerInputActions.Player.Attack.performed += (ctx) =>
             {
-                if (blockAttack) return;
+                //if (blockAttack) return;
                 OnAttack?.Invoke();
+            };
+            _playerInputActions.Player.Dash.performed += (ctx) =>
+            {
+                OnDash?.Invoke(ctx.ReadValue<Vector2>());
             };
             _playerInputActions.Player.UseItem.performed += (ctx) =>
             {

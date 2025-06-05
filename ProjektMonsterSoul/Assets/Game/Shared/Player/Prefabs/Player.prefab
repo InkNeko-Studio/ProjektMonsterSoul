@@ -711,6 +711,7 @@ GameObject:
   - component: {fileID: 6268219078333616606}
   - component: {fileID: 6161679378800339131}
   - component: {fileID: 4205095578490300102}
+  - component: {fileID: 337713337239473488}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -750,7 +751,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 15
   m_AngularDamping: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -828,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e4f573d22844247bda94314941d056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 5000
   direction: 0
 --- !u!114 &6202411745339864893
 MonoBehaviour:
@@ -883,6 +884,19 @@ MonoBehaviour:
   direction: {fileID: 7109618094846777580}
   animator: {fileID: 4163085502879491024}
   weapon: {fileID: 1427205408160034977}
+--- !u!114 &337713337239473488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745728391582921624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2976c8e39bdb34940aae5a14c6b1a0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DashForce: 2000
 --- !u!1 &8803551087627834325
 GameObject:
   m_ObjectHideFlags: 0

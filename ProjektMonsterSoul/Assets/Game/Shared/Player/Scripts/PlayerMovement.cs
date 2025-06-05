@@ -39,7 +39,7 @@ namespace Game.Shared.Player.Scripts
 
         private void FixedUpdate()
         {
-            _rigidbody.MovePosition(_rigidbody.position + _movement * Time.fixedDeltaTime);
+            _rigidbody.AddForce( _movement * Time.fixedDeltaTime);
         }
     }
 }
