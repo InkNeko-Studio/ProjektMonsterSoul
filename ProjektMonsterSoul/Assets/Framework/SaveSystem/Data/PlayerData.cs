@@ -24,26 +24,6 @@ namespace Framework.SaveSystem.Data
         };
         public List<MaterialData> materials = new List<MaterialData>()
         {
-            new MaterialData()
-            {
-                quantity = 9,
-                materialId = MaterialId.SlimeMaterial1
-            },
-            new MaterialData()
-            {
-                quantity = 2,
-                materialId = MaterialId.SlimeMaterial2
-            },
-            new MaterialData()
-            {
-                quantity = 7,
-                materialId = MaterialId.SlimeMaterial3
-            },
-            new MaterialData()
-            {
-                quantity = 4,
-                materialId = MaterialId.SlimeMaterial4
-            },
         };
         public List<ConsumableData> consumables = new List<ConsumableData>()
         {
