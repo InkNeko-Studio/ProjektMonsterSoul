@@ -72,6 +72,7 @@ Agora, antigos amigos de brincadeira se tornam inimigos mortais, e cabe a você 
   <li><strong>Bruno Martins</strong> - Game Dev</li>
   <li><strong>Dennis Nomura</strong> - Artista</li>
   <li><strong>Eduardo Seichi</strong> - Game Designer</li>
+  <li><strong>Henrique Miranda</strong> - Game Dev</li>
   <li><strong>Liz Malerba</strong> - Artista</li>
 </ul>
 
