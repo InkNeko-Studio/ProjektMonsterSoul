@@ -68,6 +68,11 @@ Agora, antigos amigos de brincadeira se tornam inimigos mortais, e cabe a você 
 <h2>👥 6. Equipe</h2>
 <ul>
   <li><strong>Inkneko Studio</strong> - Design, Arte e Programação</li>
+  <li><strong>Arthur Iwata</strong> - Game Designer</li>
+  <li><strong>Bruno Martins</strong> - Game Dev</li>
+  <li><strong>Dennis Nomura</strong> - Artista</li>
+  <li><strong>Eduardo Seichi</strong> - Game Designer</li>
+  <li><strong>Liz Malerba</strong> - Artista</li>
 </ul>
 
 <hr>
